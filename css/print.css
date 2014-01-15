@@ -1,0 +1,63 @@
+
+@media print {
+      /* style sheet for print goes here */
+/* general */
+
+body {
+font: 14pt Georgia, "Times New Roman", Times, serif;
+line-height: 19;
+margin: 10%;
+}
+
+header nav, footer {
+display: none;
+}
+
+.navbar {
+    display: none;
+}
+
+img {
+    max-width: 500px;
+}
+
+p {
+    font-family:times,serif;
+    font-size: 16px;  
+    line-height: 21px
+}
+ .break {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}  
+
+.quote {
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 20px;
+} 
+
+.site-width {
+    width: 90%;
+}
+
+.copy-width {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+/* display url */
+a:after { 
+content: " (" attr(href) ")"; 
+}
+
+.btn{
+     display: none;
+}
+
+.footer {
+     display: none;
+}
+}
