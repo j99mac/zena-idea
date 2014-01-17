@@ -2,54 +2,84 @@
 Splash
 ********************/
 body {
-	display: block;
 	padding-top: 70px;
+	background-color: #fff;
 }
-h1, h2, h3, h4, h5, h6, strong {
-	color:#000;
+/* RESET */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block
 }
-h1, h2, h3, h4 {
+body {
+	line-height:1
+}
+ol, ul {
+	list-style:none
+}
+blockquote, q {
+	quotes:none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+.row {
+	margin: 2%;
+}
+.button-splash {
+	padding-top: 22%;
+}	
+.button {
+	display:inline-block;
+	line-height:1;
+	text-transform: uppercase;
+	font-size: 11px;
 	font-weight: bold;
+	border-radius: 3px;
+	padding: 6px 8px;
+    background: transparent none;
+	margin:2em 0;
 }
-h2, h3, h4 {
-	line-height: 18px;
+.button:hover {
+	color:#FFF;
+	background-color: #424242;
 }
-h1, h2 {
-	margin-bottom: 18px;
+.button+.button {
+	margin-left:1em;
 }
-h1 {
-	font-size: 24px;
-	line-height: 36px;
-}
-h2 {
-	font-size: 16px;
-}
-h3 {
-	font-size: 1em;
-}
-h4 {
-	font-size: 10px;
-}
-h1 {
-	display:block;
-	font-family:"Arial", Times, serif;
+.text-scroll {
+	width: 100%;
+	height: 450px;
+	overflow: auto;
+	margin: 5px;
+	padding: 5px;
+	font-size: 12;
+	color: #000;
+	letter-spacing: 1px;
+	background-color: #f6f6f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d6d4d0;
 }
 .header-image {
 	background-position: top;
 	height: auto;
 	display: block;
-	width: 100%;
 	margin-top:-22px;
 	text-align: center;
-	background-image: url(img/bg-splash.jpg);
+	background-image: url();
 	background-repeat: no-repeat;
+ 	background-size: cover:;
 }
 .headline {
 	padding: 30px 0;
 }
 .headline > .container > h1 {
-	font-size: 1.5em;
-	line-height: 1;
+	font-size: 3.5em;
 	background: #ffffff;
 	background: rgba(255, 255, 255, 0.9);
 }
@@ -61,40 +91,86 @@ h1 {
 	opacity:0.7;
 	background-position: 255;
 }
-.content {
-	padding:10px;
-	width:710px;
-	position:relative;
-	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-	background: rgba(204, 204, 204, 0.5);
-}
-.container {
-	height:100%;
-	width:100%;
-	position:relative;
-	margin-right: auto;
-	margin-left: auto;
-}
-.text-scroll {
+.site-width-splash {
+	max-width:960px;
 	width: 100%;
-	height: 325px;
-	overflow: auto;
-	margin-top: 4%;
-	margin-bottom: 4%;
-	margin-right: 0;
-	margin-left: 0;
-	padding-left: 2%;
-	padding-right: 2%;
-	font-size: 13;
-	color: #000;
-	letter-spacing: 1px;
-	background-color: #f6f6f5;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #d6d4d0;
+	margin: 0 auto;
+	clear: left
 }
-.row {
-	margin-left: -15px;
-	margin-right: -15px;
-	padding: 1%;
+.copy-width-splash {
+	max-width: 960px;
+	width: 81.5 3333333333335%;
+	margin: 0 auto;
+	clear: left
+}
+body {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-weight: 400;
+ 	margin-bottom: 40px -webkit-font-smoothing: antialiased;
+}
+.splash {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-size: 100%;
+	line-height: 30px;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.break-splash {
+	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+	color: #000;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 800;
+	margin-top: 55px;
+	margin-bottom: 55px;
+	text-align: center
+}
+h1 {
+	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+	font-weight:bold;
+	text-transform: uppercase;
+	opacity:0.3;
+}
+#section-1 {
+	background-size: 100%;
+	background-image: url('../img/zbrushes1.jpg');
+	background-repeat: no-repeat;
+	display: block;
+	width: 100%;
+}
+#section-1 header {
+	color:#FFF;
+	position:absolute;
+	top:30%;
+	left:50%;
+	margin:0 0 0 -350px;
+	width:700px;
+	text-align:center;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+	line-height:1.1;
+	background-image: url();
+}
+#section-1 h1 {
+       font-size: 7.5em;
+       line-height: 1.2em;
+}
+#section-1 h2 {
+	font-size: 2.17em;
+        line-height: 1.28205em;
+	text-transform:capitalize;
+	opacity:.75;
+}
+/* Section 2 */
+#section-2 {
+}
+/* Section 3 */
+#section-3 {
+}
+
+#section-3 .fixed {
+	position: fixed;
+	top: 150px;
+	left: 150px;
+	width: 200px;
 }
