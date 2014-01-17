@@ -1,7 +1,25 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> master
+/* footer boutton */
+footer-button {
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 2%;
+	padding-bottom: 2px;
+	text-align: center;
+	display: block;
+}
+.footer-button {
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 2%;
+	padding-bottom: 2px;
+	text-align: center;
+	display: block;
+}
+/* footer */
 footer {
     background-color: #d6d4d0;
     padding: 15px;
@@ -14,7 +32,3 @@ footer  p{
     font-size: 18px;
     font-weight: 500;
 }
-<<<<<<< HEAD
-} 
-=======
->>>>>>> master
