@@ -1,10 +1,8 @@
 * Prevent iOS, WinMobile from adjusting font size */
-html {
-    -ms-text-size-adjust:none;
-}
+
 body {
-    font-size: 81.25%;
-    line-height: 1.333;
+    font-size: 23pt;
+    line-height: 37;
 }
 
 p {
