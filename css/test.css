@@ -1,0 +1,135 @@
+body {
+text-rendering:optimizeLegibility;
+-webkit-font-smoothing:antialiased;
+height:100%;
+}
+
+.content {
+	max-width:1000px;
+	margin:0 auto;
+}
+
+.copy-width {
+	width:81.533333333333%;
+	clear:left;
+	float:none;
+	margin:0 .8999999999999999% 0 9.2333333333333%;
+}
+
+.site-width {
+	zoom:1;
+	max-width:1000px;
+	width:90%;
+	clear:left;
+	margin:0 auto;
+}
+
+h1, h2, h3 {	
+	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+	line-height:1em;
+	font-weight: 700;
+}
+
+p {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-size:26px;
+	line-height:39px;
+	font-weight:400;
+	margin-bottom:40px;
+}
+
+.break {
+	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+	color: #666666;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 600;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center
+}
+.quote {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	color: #4c4c4c;
+	font-size: 20px;
+	line-height: 34px;
+	font-weight: 100;
+	margin-Top: 1%;
+	margin-bottom: 2%;
+	margin-left: 60px;
+	width: 80%
+}
+.img-center {
+ 	width: 40%; 
+ 	max-width: 100%;
+ 	min-width: 80%;
+	margin-top: 2%;
+	margin-right: auto;
+	margin-bottom: 2%;
+	margin-left: auto;
+	display: block;
+	width: 60%;
+}
+
+.art-caption {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	color: #4c4c4c;
+	font-size: 2vw;
+	line-height: 33px;
+	font-weight: 100;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 2%;
+}
+
+.button {
+	font-family:ff-meta-serif-web-pro,Georgia,Times,"Times New Roman",serif;
+	font-size:17px;
+	font-weight:400;
+	color:#fff;
+	border:1px solid rgba(255,255,255,0.4);
+	background:transparent;
+	-webkit-border-radius:9px;
+	-moz-border-radius:9px;
+	border-radius:9px;
+	text-decoration:none;
+	white-space:nowrap;
+	-webkit-transition:border-color .4s;
+	-moz-transition:border-color .4s;
+	-o-transition:border-color .4s;
+	transition:border-color .4s;
+	padding:15px 21px;
+}
+
+#footer-button {
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 2%;
+	margin-left: auto;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	text-align: center;
+	display: block;
+}
+footer {
+    background-color: #d6d4d0;
+    height: 100px;
+    width: 120%;
+    padding: 10px;
+}
+footer  p{
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+
+body {
+    width: 100%;
+} 
+
+p {
+    -webkit-text-size-adjust: auto;
+}
+
