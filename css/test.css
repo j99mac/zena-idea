@@ -19,7 +19,7 @@ body {
 }
 
 .copy-width {
-        width:90.533333333333%;
+        width:81.533333333333%;
         clear:left;
         float:none;
         margin:0 .8999999999999999% 0 9.2333333333333%;
@@ -117,7 +117,7 @@ footer  p{
 
 html, body {
     width: 90%;
-    -webkit-text-size-adjust:auto;
+    -webkit-text-size-adjust:none;
     -webkit-font-smoothing: antialiased;
     *zoom: 1;
 }
