@@ -1,11 +1,12 @@
 body {
+        margin-right: auto;
+        margin-left: auto;
         text-rendering:optimizeLegibility;
         -webkit-font-smoothing:antialiased;
         height:100%;
 }
 
 .container {
-        width:90%;
         margin-right: auto;
         margin-left: auto;
         *zoom: 1;
