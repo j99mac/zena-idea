@@ -2,8 +2,7 @@
 html {
     -webkit-text-size-adjust:none; 
     -ms-text-size-adjust:none;
-    zoom: 1;
-}
+     zoom: 1;
 
 body {
     -webkit-font-smoothing: antialiased;
@@ -16,8 +15,9 @@ body {
 
 p {
     font-family: "ff-meta-serif-web-pro",Georgia,Times,"Times New Roman",serif;
-    font-size: 26px;
-    line-height: 39px;
-    font-weight: 400;
-    margin-bottom: 40px;
+    margin: 0 auto;
+    font-size: 23px;
+    line-height: 38px;
+    width: 95%;
+
 }
