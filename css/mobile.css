@@ -8,6 +8,7 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     font-size: 100%;
+    zoom: 1;
 }
 
 p {
