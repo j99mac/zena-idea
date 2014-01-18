@@ -154,16 +154,55 @@ footer  p{
     font-size: 12pt;
     font-weight: 400;
 
-@media only screen and (max-device-width: 481px) {
+@media all and max-width1000px and min-width500px {
 body {
      width: 100%;
 }
 
 p {
-    font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
-   -webkit-text-size-adjust: auto;
-    width: 100%;
+    font-size: 23px;
+    line-height: 34px;
+    margin-bottom: 40px;
+  }
+  
 }
+
+@media all and max-width500px and min-width0 {
+  .button {
+    font-size: 15px;
+    color: #fff;
+    padding: 14px 17px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+  }
+  
+}
+
+@media all and max-width1000px and min-width500px {
+  .copy-width {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .site-width {
+    width: 80%;
+  }
+
+}
+
+@media all and max-width500px and min-width0 {
+  .copy-width {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .site-width {
+    width: 85%;
+  }
+
+}
+
 @media print {
     body { font-size: 12pt }
   }
