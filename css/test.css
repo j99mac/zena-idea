@@ -13,13 +13,13 @@ body {
 
 .site-width {
         max-width:960px;
-        width:90%;
+        width:98%;
         clear:left;
         margin:0 auto;
 }
 
 .copy-width {
-        width:91.533333333333%;
+        width:95.533333333333%;
         clear:left;
         float:none;
         margin:0 .8999999999999999% 0 9.2333333333333%;
@@ -105,7 +105,7 @@ ul, li, ol, dl, dd, dt {
 footer {
     background-color: #d6d4d0;
     height: 100px;
-    width: 120%;
+    width: 100%;
     padding: 10px;
 }
 footer  p{
@@ -116,6 +116,7 @@ footer  p{
 @media only screen and (min-device-width : 481px) and (max-device-width : 568px)
 
 html, body {
+    width: 100%;
     -webkit-text-size-adjust:auto;
     -webkit-font-smoothing: antialiased;
     *zoom: 1;
