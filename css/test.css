@@ -170,28 +170,31 @@ footer {
 footer  p{
     font-size: 12pt;
     font-weight: 400;
+}
 
 @media all and max-width1000px and min-width500px {
 body {
      width: 100%;
 }
-  
-}
 
-@media all and max-width1000px and min-width500px {
-  .copy-width {
+p {
+    font-size: 23px;
+    line-height: 34px;
+    margin-bottom: 40px;
+}
+.copy-width {
     width: 100%;
     margin-left: 0;
   }
   
-  .site-width {
+.site-width {
     width: 80%;
   }
-
 }
 
+
 @media all and max-width500px and min-width0 {
-  .copy-width {
+    .copy-width {
     width: 100%;
     margin-left: 0;
   }
