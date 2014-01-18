@@ -1,6 +1,6 @@
 * Prevent iOS from adjusting font size */
 html {
-    -webkit-text-size-adjust:auto; 
+    -webkit-text-size-adjust:none; 
     -ms-text-size-adjust:none;
     zoom: 1;
 }
