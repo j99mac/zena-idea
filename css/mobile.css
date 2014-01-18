@@ -2,13 +2,13 @@
 html {
     -webkit-text-size-adjust:none; 
     -ms-text-size-adjust:none;
-     zoom: 1;
+     *zoom: 1;
 }
 
 body {
     -webkit-font-smoothing: antialiased;
     font-size: 85.1%;
-    zoom: 1;
+    *zoom: 1;
 }
 
 p {
