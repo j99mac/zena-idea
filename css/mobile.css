@@ -1,6 +1,5 @@
 * Prevent iOS, WinMobile from adjusting font size */
 html {
-    -webkit-text-size-adjust:none; 
     -ms-text-size-adjust:none;
 }
 body {
@@ -12,12 +11,3 @@ p {
     font-size: 81.25%;
     line-height: 1.333;
 }
-.button {
-    font-size: 15px;
-    color: #fff;
-    padding: 14px 17px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    border-radius: 7px;
-}
-  
