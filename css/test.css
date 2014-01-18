@@ -4,6 +4,12 @@ body {
         height:100%;
 }
 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
 .site-width {
         max-width:1000px;
         width:90%;
