@@ -90,18 +90,28 @@ ul,li,ol,dl,dd,dt {
 }
 
 /* Typography */
-h1,h2,h3 {
-    font-family: ff-meta-serif-web-pro, Arial, Times, "Times New Roman", serif;
-    line-height: 1em;
-    font-weight: 700;
+h1 {
+    font-size: 3.4285714285714284em;
 }
+
+h2 {
+    font-size: 2.2857142857142856em;
+}
+
+h3 {
+  font-size: 1.7142857142857142em;
+}
+
+h4 {
+  font-size: 1.5em;
+}  
 
 p {
     font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
     font-size: 26px;
     line-height: 39px;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .break {
@@ -110,7 +120,7 @@ p {
     font-size: 60px;
     line-height: 60px;
     font-weight: 600;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-bottom: 25px;
     text-align: center;
 }
@@ -121,22 +131,20 @@ p {
     font-size: 20px;
     line-height: 34px;
     font-weight: 100;
-    margin-top: 1%;
     margin-bottom: 2%;
     margin-left: 60px;
     width: 80%;
 }
 /*  Image and Caption */
 .img-center {
-    width: 60%;
+    width: 80%;
     max-width: 100%;
-    min-width: 80%;
-    margin-top: 2%;
+    min-width: 60%;
+    margin-top: 1%;
     margin-right: auto;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     margin-left: auto;
     display: block;
-    width: 60%;
 }
 
 .art-caption {
@@ -156,7 +164,7 @@ p {
     text-align: center;
     vertical-align: middle;
     margin: 0 auto;
-    padding: 2%;
+    padding: 4%;
 }
 /* footer */
 footer {
@@ -180,16 +188,17 @@ body {
 p {
     font-size: 23px;
     line-height: 34px;
-    margin-bottom: 40px;
+    margin-bottom: 35x;
 }
-.copy-width {
-    width: 100%;
-    margin-left: 0;
-  }
-  
 .site-width {
     width: 80%;
-  }
+}
+
+.copy-width {
+    width: 100%;
+    margin-left: 0;  
+}
+
 }
 
 
@@ -218,13 +227,6 @@ p {
     background-color:transparent;
     border:none;
     min-height:auto;
-}
-
-body {
-font-size: 68.75%; /* 11px */
-line-height: 1.333;
-font-family: Verdana, Arial, Helvetica, sans-serif;
-color: #333;
 }
 
 p {
@@ -256,4 +258,3 @@ margin: 0.5cm;
 margin: 0.8cm;
 }
 }
-
