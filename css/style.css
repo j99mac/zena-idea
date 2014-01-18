@@ -136,6 +136,18 @@ p {
     width: 80%;
 }
 /*  Image and Caption */
+.divider img{
+    display: block;
+    height: auto;
+    left: 0;
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+    margin-bottom: 5%;
+    margin-top: 5%
+}
 .img-center {
     width: 80%;
     max-width: 100%;
@@ -202,6 +214,22 @@ p {
     float: none;
     margin: 0 .8999999999999999% 0 9.2333333333333%;
 }
+
+
+@media all and max-width500px and min-width0 {
+    .copy-width {
+    width: 91.533333333333%;
+    clear: left;
+    float: none;
+    margin: 0 .8999999999999999% 0 9.2333333333333%;
+  }
+  
+  .site-width {
+    max-width: 100%;
+    width: 90%;
+    clear: left;
+    margin: 0 auto;
+  }
 
 }
 /* Print */
