@@ -5,13 +5,14 @@ body {
 }
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  *zoom: 1;
+        width:99%;
+        margin-right: auto;
+        margin-left: auto;
+        *zoom: 1;
 }
 
 .site-width {
-        max-width:1000px;
+        max-width:960px;
         width:90%;
         clear:left;
         margin:0 auto;
