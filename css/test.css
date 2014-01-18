@@ -4,9 +4,9 @@ Header
 @import url("_header.css");
 
 /********************
-Footer
+Mobile
 ********************/
-@import url("monbile.css");
+@import url("css.monbile.css");
 
 /* */
 body {
