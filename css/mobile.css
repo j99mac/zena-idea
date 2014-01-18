@@ -2,14 +2,19 @@
 html {
     -webkit-text-size-adjust:auto; 
     -ms-text-size-adjust:none;
+    zoom: 1;
 }
 
 body {
+    -webkit-font-smoothing: antialiased;
     font-size: 81.25%;
     line-height: 1.333;
 }
 
 p {
-    font-size: 81.25%;
-    line-height: 1.333;
+    font-family: "ff-meta-serif-web-pro",Georgia,Times,"Times New Roman",serif;
+font-size: 26px;
+line-height: 39px;
+font-weight: 400;
+margin-bottom: 40px;
 }
