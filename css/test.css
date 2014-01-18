@@ -138,6 +138,7 @@ ul,li,ol,dl,dd,dt {
 .footer-button {
     text-align: center;
     vertical-align: middle;
+    margin: 0 auto;
     padding: 2%;
 }
 
