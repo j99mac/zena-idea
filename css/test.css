@@ -155,8 +155,9 @@ property: value;
 }
 
 .copy-width {
-    width:100%;
-    margin-left:0;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
 }
 p {
     font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
