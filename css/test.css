@@ -13,7 +13,7 @@ body {
 
 .site-width {
         max-width:960px;
-        width:95%;
+        width:90%;
         clear:left;
         margin:0 auto;
 }
@@ -116,7 +116,7 @@ footer  p{
 @media only screen and (min-device-width : 481px) and (max-device-width : 568px)
 
 html, body {
-    width: 100%;
+    width: 90%;
     -webkit-text-size-adjust:auto;
     -webkit-font-smoothing: antialiased;
     *zoom: 1;
