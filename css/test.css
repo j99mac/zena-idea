@@ -148,7 +148,9 @@ body{
 }
 
 .copy-width {
-    width:90%;
+    width:81.533333333333%;
+    clear:left;
+    float:none;
     margin-left:5%;
     margin-right:5%;
 }
