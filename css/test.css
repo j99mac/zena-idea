@@ -144,7 +144,8 @@ ul,li,ol,dl,dd,dt {
 
 footer {
     background-color: #d6d4d0;
-    height: 10%;
+    height: 100px;
+    padding: 5%;
 }
 
 footer  p{
