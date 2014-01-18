@@ -88,25 +88,6 @@ ul, li, ol, dl, dd, dt {
     margin:0;
 }
 
-.button {
-        font-family:ff-meta-serif-web-pro,Georgia,Times,"Times New Roman",serif;
-        font-size:17px;
-        font-weight:400;
-        color:#fff;
-        border:1px solid rgba(255,255,255,0.4);
-        background:transparent;
-        -webkit-border-radius:9px;
-        -moz-border-radius:9px;
-        border-radius:9px;
-        text-decoration:none;
-        white-space:nowrap;
-        -webkit-transition:border-color .4s;
-        -moz-transition:border-color .4s;
-        -o-transition:border-color .4s;
-        transition:border-color .4s;
-        padding:15px 21px;
-}
-
 #footer-button {
         margin-top: 0;
         margin-right: auto;
@@ -128,7 +109,7 @@ footer  p{
     font-weight: 400;
 }
 
-@media only screen and (max-device-width: 481px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px)
 
 html, body, p, div, h1, h2, h3, h4, h5, h6 {
     width: 100%;
