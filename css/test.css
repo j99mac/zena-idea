@@ -154,8 +154,9 @@ footer  p{
     font-size: 12pt;
     font-weight: 400;
 
-@media only screen and min-device-width 481px and max-device-width 568px
-html,body {
+@media only screen and (max-device-width: 481px) {
+body {
+     width: 100%;
     -webkit-text-size-adjust: auto;
 }
 
@@ -166,4 +167,18 @@ p {
     font-weight: 400;
     margin-bottom: 40px;
     width: 100%;
+}
+@media print {
+    body { font-size: 12pt }
+  }
+.navbar {
+    display: none;
+}  
+.btn{
+     display: none;
+}
+
+.footer {
+     display: none;
+}
 }
