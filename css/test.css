@@ -5,12 +5,12 @@ body {
 }
 
 .content {
-        max-width:960px;
+        max-width:1000px;
         margin:0 auto;
 }
 
 .site-width {
-        max-width:960px;
+        max-width:1000px;
         width:90%;
         clear:left;
         margin:0 auto;
@@ -59,9 +59,9 @@ p {
         width: 80%
 }
 .img-center {
-         width: 40%; 
-         max-width: 100%;
-         min-width: 80%;
+        width: 40%; 
+        max-width: 100%;
+        min-width: 80%;
         margin-top: 2%;
         margin-right: auto;
         margin-bottom: 2%;
@@ -144,7 +144,10 @@ body{
   margin-left: auto;
 } 
 .site-width {
-    width:90%;
+        max-width:500x;
+        width:90%;
+        clear:left;
+        margin:0 auto;
 }
 
 .copy-width {
