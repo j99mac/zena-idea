@@ -138,17 +138,10 @@ html, body, p, div, h1, h2, h3, h4, h5, h6{
 body{ 
     font-size: 18px;
 }
-body[orient="portrait"] {
-property: value;
-}
-body[orient="landscape"] {
-property: value;
-}
 
 .container {
   margin-right: auto;
   margin-left: auto;
-  *zoom: 1;
 } 
 .site-width {
     width:90%;
