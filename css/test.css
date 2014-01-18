@@ -124,23 +124,20 @@ footer  p{
 
 @media only screen and (min-device-width: 481px) {
 
-body {
-    width: 100%;
-} 
-
 p {
     font-size: 12px;
+    -webkit-text-size-adjust: none;
 }
 
 @media only screen and max-width767px {
 
+.site-width {
+width:90%;
+}
+
 .copy-width {
 width:100%;
 margin-left:0;
-}
-
-.site-width {
-width:80%;
 }
 
 @media all and max-width384px and min-width384px {
