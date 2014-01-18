@@ -178,29 +178,6 @@ body {
   
 }
 
-@media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
-  
-/* Prevent iOS, WinMobile from adjusting font size */
-html {
-    -webkit-text-size-adjust:none; 
-    -ms-text-size-adjust:none;
-}
-body {
-    font-size: 81.25%;
-    line-height: 1.333;
-}
-
-   .button {
-    font-size: 15px;
-    color: #fff;
-    padding: 14px 17px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    border-radius: 7px;
-  }
-  
-}
-
 @media all and max-width1000px and min-width500px {
   .copy-width {
     width: 100%;
