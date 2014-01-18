@@ -126,7 +126,7 @@ footer  p{
 
 p {
     font-size: 12px;
-    -webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: auto;
 }
 
 @media only screen and max-width767px {
