@@ -146,7 +146,8 @@ footer {
     background-color: #d6d4d0;
     height: 100px;
     width: 100%;
-    padding: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 footer  p{
