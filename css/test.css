@@ -157,15 +157,11 @@ footer  p{
 @media only screen and (max-device-width: 481px) {
 body {
      width: 100%;
-    -webkit-text-size-adjust: auto;
 }
 
 p {
     font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
-    font-size: 24px;
-    line-height: 37px;
-    font-weight: 400;
-    margin-bottom: 40px;
+   -webkit-text-size-adjust: auto;
     width: 100%;
 }
 @media print {
