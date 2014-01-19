@@ -10,13 +10,13 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     font-size: 85.1%;
-    line-height: 1em;
+    line-height: 1.5em;
     *zoom: 1;
 }
 
 p {
     font-size: 23px;
-    line-height: 1em;
+    line-height: 1.5em;
     margin-bottom: 40px;
 }
 
