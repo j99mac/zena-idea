@@ -3,11 +3,6 @@ Header
 ********************/
 @import url("_header.css");
 
-/********************
-Mobile
-********************/
-@import url("css.monbile.css");
-
 /* */
 body {
     text-rendering: optimizeLegibility;
@@ -270,12 +265,73 @@ p {
     padding-right: 5%;
     position: relative;
 } 
- img{
-    max-width:100%;
-    height:auto;
-}
 
 @media all and max-width1000px and min-width500px {
 body {
      width: 100%;
+}
+
+p {
+    font-size: 23px;
+    line-height: 34px;
+    margin-bottom: 35x;
+}
+.site-width {
+    max-width: 1000px;
+    width: 90%;
+    clear: left;
+    margin: 0 auto;
+}
+.copy-width {
+     width: 81.533333333333%;
+    clear: left;
+    float: none;
+    margin: 0 .8999999999999999% 0 9.2333333333333%;
+}
+
+}
+/* Print */
+@media print {
+* {
+    min-height: inherit !important;
+} 
+#container, {
+    width:auto;
+    position: static;
+    float:none;
+    margin:0;
+    overflow:visible;
+    background-color:transparent;
+    border:none;
+    min-height:auto;
+}
+
+p {
+    font-size: 13px;
+}
+
+img {
+    max-width: 500px;
+
+}.navbar {
+    display: none;
+}  
+.btn{
+     display: none;
+}
+
+.footer {
+     display: none;
+  }
+.footer p {
+     display: none;
+  }
+
+@page :left {
+margin: 0.5cm;
+}
+
+@page :right {
+margin: 0.8cm;
+}
 }
