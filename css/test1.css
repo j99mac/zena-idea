@@ -62,7 +62,7 @@ body {
     opacity: .7;
     text-align: left;
     font-size: 18px;
-    padding-top: 45%;
+    padding-top: 5%;
     position: relative;
 }
 .button-splash-top {
@@ -112,11 +112,7 @@ body {
     margin-left: 55%;
     margin-top: 0px
 }
-#section0{
-    background: url(../img/zbrushes1.jpg.jpg) repeat-x white center top      
-    background-size: cover;
-    padding: 5% 0 0 0;
- }
+
 ul,li,ol,dl,dd,dt {
     list-style: none;
     padding: 0;
@@ -200,9 +196,9 @@ p {
 }
 .img-center-b {
   margin: 0 auto;
-  width: 60%;
-  max-width: 60%;
-  min-width: 60%;
+  width: 80%;
+  max-width: 99%;
+  min-width: 80%;
   display: block;
   vertical-align: center;
   margin-top: ;

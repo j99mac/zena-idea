@@ -49,7 +49,8 @@ ul{
 	background-image: url(imgs/zbrushes1.jpg);
 	background-repeat:no-repeat;
     background-position:center; 
-    background-size: cover;	padding: 30% 0 0 0;
+    background-size: cover;	
+    padding: 20% 0 0 0;
  }
  #section3{
 	background-size: cover;
