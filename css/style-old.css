@@ -1,0 +1,208 @@
+body {
+	display: block;
+	padding-top: 70px;
+}
+/* navagation */
+
+.navbar {
+	background-color: #d6d4d0;
+}
+/* container */
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
+.section.top {
+	margin: 0;
+	margin-top: 25px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+.section.top img {
+	display: block;
+	height: auto;
+	left: 0;
+	max-width: 100%;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	z-index: 0;
+	margin-bottom: 40px
+}
+.section.top .container {
+	width: none;
+	max-width: none;
+	position: absolute;
+	top: 0;
+	width: 70%;
+	max-height: 480px;
+	z-index: 1;
+	float: left;
+	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+	margin-top: 40px;
+	margin-left: 40px;
+	color: #a8a59c;
+	font-size: 7.5vw;
+	letter-spacing: -1px;
+	line-height: 1;
+	text-align: left;
+	opacity: .7
+}
+.section-top-caption {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	color: #4c4c4c;
+	font-size: 1.9vw;
+	line-height: 33px;
+	font-weight: 100;
+	margin-left: 55%;
+	margin-top: 0px
+}
+.site-width {
+	max-width: 960px;
+	width: 90%;
+	margin-top: 50px;
+	margin: 0 auto;
+	clear: left
+}
+.site-width-splash {
+	max-width: 960px;
+	width: 90%;
+	clear: left;
+	margin-top: 500px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.copy-width-splash {
+	float: left;
+	width: 81.5333%;
+	margin-left: 9.23333%;
+	clear: left;
+	float: none;
+	margin-right: 0.9%;
+	margin-bottom: 0;
+}
+/* Image */
+.divider img {
+	display: block;
+	height: auto;
+	left: 0;
+	max-width: 100%;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	z-index: 0;
+	margin-bottom: 5%;
+	margin-top: 5%
+}
+#featured-image {
+	background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Big_Sur_California1.jpg/1024px-Big_Sur_California1.jpg) no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+	background-size: cover;
+	background-position: absolute;
+	height: 680px;
+}
+.img-center {
+ width: 60% max-width: 100%;
+	min-widtht: 80%;
+	margin-top: 2%;
+	margin-right: auto;
+	margin-bottom: 2%;
+	margin-left: auto;
+	display: block;
+	width: 60%;
+}
+.art-caption {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	color: #4c4c4c;
+	font-size: 1.9vw;
+	line-height: 33px;
+	font-weight: 100;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 2%;
+}
+/* misalanius */
+#overlay-box {
+	max-width: 960px;
+	width: 90%;
+	height: 680px;
+	margin: 0 auto;
+	clear: left;
+	position: relative;
+	background-color: rgba(246, 246, 245, .25)
+}
+#overlay-box p {
+	position:absolute;
+	top: 60%;
+	margin: 0 .8999999999999999%;
+	font-size: 3vw;
+	line-height: 4vw;
+}
+/* typography*/
+p {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-size: 26px;
+	line-height: 39px;
+	font-weight: 500;
+	margin-bottom: 40px
+}
+#p-splash {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-size: 26px;
+	line-height: 39px;
+	font-weight: 500;
+	margin-bottom: 40px;
+	opacity:0.7;	
+}
+h1 {
+	display:block;
+	font-family:"Arial", Times, serif;
+}
+h2 {
+	font-family: "ff-meta-serif-web-pro", Arial, "Times New Roman", serif;
+	font-size: 9.9vw;
+	line-height: 70px;
+	font-weight: 500;
+	margin-bottom: 50px;
+	opacity: .8;
+	-webkit-font-smoothing: antialiased
+}
+h2 {
+	font-size: 3.0vh;
+}
+.break {
+	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+	color: #666666;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 600;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center
+}
+.break-splash {
+	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+	color: #666666;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 600;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+	opacity:0.5;
+}
+.quote {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	color: #4c4c4c;
+	font-size: 20px;
+	line-height: 31px;
+	font-weight: 100;
+	margin-Top: 1%;
+	margin-bottom: 2%;
+	margin-left: 60px;
+	width: 80%
+}
