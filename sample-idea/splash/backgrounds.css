@@ -52,6 +52,8 @@ ul{
 	background-image: url(imgs/zbrushes1.jpg);
 	background-size: auto 100%;
 	padding: 5% 0 0 0;
+	height: 100%;
+	display:block;
  }
  
  /*Creatin a ull height slide */
