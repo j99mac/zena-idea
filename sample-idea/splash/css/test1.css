@@ -109,13 +109,7 @@ body {
     margin-left: 55%;
     margin-top: 0px
 }
-#section0{
 
-    background: url(../img/zbrushes1.jpg.jpg)
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 5% 0 0 0;
- }
 ul,li,ol,dl,dd,dt {
     list-style: none;
     padding: 0;
