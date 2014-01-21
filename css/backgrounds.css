@@ -100,13 +100,6 @@ ul{
  #section3 h1{
  	color:#000;
 }
- #section0{
- 	background-image: url("img/zbrushes1.jpg");
-	background-repeat:no-repeat;
-	background-position:center; 
-	background-size: cover;
-	background-color: #d6d4d0;
- }
 
 html, body{
 	background-color: #d6d4d0;
@@ -177,12 +170,12 @@ ul{
 	margin: 0 .9399999999999999% 2px 6.2333333333333%;
 }
  #section0{
-	background-image: url(img/zbrushes1.jpg);
+	background-image: url("img/zbrushes1.jpg");
 	background-repeat:no-repeat;
 	background-position:center; 
 	background-size: cover;
 	height: 100%;
-	padding: 2% 0 0 0;
+	padding: 25% 0 0 0;
  }
  /*Creatin a ull height slide */
  .slides{
