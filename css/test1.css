@@ -259,6 +259,7 @@ p {
 }  
 .p-splash-top {
     font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+    font-size: 2.5vw; 
     opacity: .7;
     text-align: left;
     padding-top: 25%;

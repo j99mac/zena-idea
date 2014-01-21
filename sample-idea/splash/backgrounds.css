@@ -45,14 +45,15 @@ ul{
  #section0,
  #section1,
  #section2,
+ #section0{
+	background-image: url(imgs/zbrushes1.jpg);
+	background-repeat:no-repeat;
+    background-position:center; 
+    background-size: cover;	padding: 30% 0 0 0;
+ }
  #section3{
 	background-size: cover;
  }
- #section0{
-	background-image: url(imgs/zbrushes1.jpg);
-	padding: 30% 0 0 0;
- }
- 
  /*Creatin a ull height slide */
  .slides{
 	height: 100%;
