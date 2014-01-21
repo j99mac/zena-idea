@@ -85,23 +85,23 @@ ul{
 	display:block;
  }
  #slide2{
- 	background-image: url(imgs/.jpg);
+ 	background-image: url(img/.jpg);
 	padding: 0% 0 0 0;
 	height: 100%;
  }
  #section2{
-	background-image: url(imgs/.jpg);
+	background-image: url(img/.jpg);
 	padding: 6% 0 0 0;
  }
  #section3{
-	background-image: url(imgs/.jpg);
+	background-image: url(img/.jpg);
 	padding: 0 0 0 0;
  }
  #section3 h1{
  	color:#000;
 }
  #section0{
-	background-image: url(imgs/zbrushes1.jpg);
+	background-image: url(img/zbrushes1.jpg);
 	background-repeat:no-repeat;
 	background-position:center; 
 	background-size: cover;
@@ -177,7 +177,7 @@ ul{
 	margin: 0 .9399999999999999% 2px 6.2333333333333%;
 }
  #section0{
-	background-image: url(imgs/zbrushes1.jpg);
+	background-image: url(img/zbrushes1.jpg);
 	background-repeat:no-repeat;
 	background-position:center; 
 	background-size: cover;
@@ -196,16 +196,16 @@ ul{
 	display:block;
  }
  #slide2{
- 	background-image: url(imgs/.jpg);
+ 	background-image: url(img/.jpg);
 	padding: 0% 0 0 0;
 	height: 100%;
  }
  #section2{
-	background-image: url(imgs/.jpg);
+	background-image: url(img/.jpg);
 	padding: 6% 0 0 0;
  }
  #section3{
-	background-image: url(imgs/.jpg);
+	background-image: url(img/.jpg);
 	padding: 0 0 0 0;
  }
  #section0{
