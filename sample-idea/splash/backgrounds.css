@@ -50,7 +50,7 @@ ul{
  }
  #section0{
 	background-image: url(imgs/zbrushes1.jpg);
-	background-size: cover
+	background-size: auto 100%;
 	padding: 5% 0 0 0;
  }
  
