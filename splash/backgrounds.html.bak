@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Zena Posever</title>
+	<meta name="author"" />
+	<meta name="description"" />
+	<meta name="keywords"  content=" />
+	<meta name="Resource-type" content="Document" />
+
+	
+	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="backgrounds.css" />
+	<link rel="stylesheet" type="text/css" href="/bootstrap.min.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+	
+	<script type="text/javascript" src="../jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$.fn.fullpage({
+				'verticalCentered': false
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div class="section" id="section0">
+
+<div class="site-width">
+<div class="copy-width">
+
+<h1 class="section0-h1">Zena Posever</h1>
+
+<p class="left">(1911 - 2012) was a master sculptress and painter whose portrait commissions can be found in the collections of the National Portrait Gallery, Wolfsonian Museum, and Penn Art Academy</p>
+<p class="right"> <a class="btn btn-default" href="zena-play.html">STORIES</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="section2"> <img class="img-center-b"src="imgs/studio.jpg" alt="Studio">
+<p class="art-caption">Art Studio, Miami Beach 1965</p>
+</div>
+
+</body>
+</html>
