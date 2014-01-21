@@ -111,7 +111,9 @@ body {
 }
 #section0{
 
-    background: url(../img/zbrushes1.jpg.jpg) repeat-x white center top
+    background: url(../img/zbrushes1.jpg.jpg)
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 5% 0 0 0;
  }
 ul,li,ol,dl,dd,dt {

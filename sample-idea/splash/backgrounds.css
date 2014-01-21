@@ -51,6 +51,8 @@ ul{
  #section0{
 	background-image: url(imgs/zbrushes1.jpg);
 	padding: 5% 0 0 0;
+	background-size: cover;
+
  }
  
  /*Creatin a ull height slide */
