@@ -53,6 +53,7 @@ body {
     font-size: 3.4285714285714284em;
     opacity: .7;
     text-align: left;
+    padding-top: -5%;
     position: relative;
 }  
 .p-splash-top {
@@ -60,7 +61,7 @@ body {
     opacity: .7;
     text-align: left;
     font-size: 2em;
-    padding-top: 45%;
+    padding-top: 5%;
     position: relative;
 }
 .button-splash-top {
