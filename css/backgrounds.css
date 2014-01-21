@@ -66,7 +66,7 @@ ul{
 	background-size: cover;
  }
  #section0{
-	background-image: url(img/zbrushes1.jpg);
+	background-image: url("img/zbrushes1.jpg");
 	background-repeat:no-repeat;
 	background-position:center; 
 	background-size: cover;
@@ -101,7 +101,7 @@ ul{
  	color:#000;
 }
  #section0{
-	background-image: url(img/zbrushes1.jpg);
+ 	background-image: url("img/zbrushes1.jpg");
 	background-repeat:no-repeat;
 	background-position:center; 
 	background-size: cover;
@@ -115,8 +115,8 @@ html, body{
 p {
 	font-family: ff-meta-serif-web-pro,Georgia,Times,"Times New Roman",serif;
 	font-size: 23px;
-    line-height: 34px;
-    margin-bottom: 40px
+	line-height: 34px;
+    	margin-bottom: 40px
 	opacity: .6;
 	padding-left: 6%;
 	padding-right: 6%;	
@@ -135,7 +135,7 @@ ul li{
 	color: #ccc;
 }
 ul li.active{
-   color: #000;
+   	color: #000;
 }
 ul{
 	position:fixed;
