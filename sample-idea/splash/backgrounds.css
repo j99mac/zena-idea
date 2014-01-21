@@ -42,21 +42,19 @@ ul{
 
 /* Sections
  * --------------------------------------- */
- #section0,
+#section0{
+	background-image: url(imgs/zbrushes1.jpg);
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+	height: 100%;
+	padding: 0;
+ }
  #section1,
  #section2,
  #section3{
 	background-size: cover;
  }
- #section0{
-	background-image: url(imgs/zbrushes1.jpg);
-	background-repeat:no-repeat;
-	background-position:center; 
-	background-size: cover;
-	height: 90%;
-	padding: 5% 0 0 0;
- }
- 
  /*Creatin a ull height slide */
  .slides{
 	height: 100%;
