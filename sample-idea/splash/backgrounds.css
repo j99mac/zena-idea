@@ -50,9 +50,11 @@ ul{
  }
  #section0{
 	background-image: url(imgs/zbrushes1.jpg);
+	background-repeat:no-repeat;
+	background-position:center; 
 	background-size: cover;
+	height: 90%;
 	padding: 5% 0 0 0;
-	display:block;
  }
  
  /*Creatin a ull height slide */

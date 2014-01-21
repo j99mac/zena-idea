@@ -4,12 +4,18 @@ Header
 @import url("_header.css");
 
 /* */
+html {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  *zoom: 1;
+}
 body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     height: 100%;
     width: 100%;
-    *zoom: 1;
 }
 .btn {
   display: inline-block;
@@ -105,8 +111,8 @@ body {
     margin-top: 0px
 }
 #section0{
-
-    background: url(../img/zbrushes1.jpg.jpg) repeat-x white center top
+    background: url(../img/zbrushes1.jpg.jpg) repeat-x white center top      
+    background-size: cover;
     padding: 5% 0 0 0;
  }
 ul,li,ol,dl,dd,dt {
