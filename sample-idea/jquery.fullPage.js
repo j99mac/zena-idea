@@ -11,10 +11,10 @@
 		// Create some defaults, extending them with any options that were provided
 		options = $.extend({
 			"verticalCentered" : true,
-			'resize' : true,
+			'resize' : false,
 			'slidesColor' : [],
 			'anchors':[],
-			'scrollingSpeed': 700,
+			'scrollingSpeed': 600,
 			'easing': 'easeInQuart',
 			'menu': false,
 			'navigation': false,
@@ -29,7 +29,7 @@
 			'loopHorizontal': true,
 			'autoScrolling': true,
 			'scrollOverflow': false,
-			'css3': false,
+			'css3': true,
 			'paddingTop': 0,
 			'paddingBottom': 0,
 			'fixedElements': null,
