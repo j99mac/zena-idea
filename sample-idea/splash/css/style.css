@@ -14,20 +14,8 @@ html, body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust:auto;
     height: 90%;
-}
-.btn {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-
 }  
-.btn-default {
-  color: #333;   
-  background-color:transparent;
-  border-color: #ccc;
-}
+
 /* Nav bar color */
 .navbar {
     background-color: #d6d4d0;
@@ -125,24 +113,6 @@ ul,li,ol,dl,dd,dt {
 }
 
 /* Typography */
-h1, h2, h3 {
-  margin: 0;
-}    
-h1 {
-    font-size: 3.4285714285714284em;
-}
-
-h2 {
-    font-size: 2.2857142857142856em;
-}
-
-h3 {
-  font-size: 1.5142857142857142em;
-}
-
-h4 {
-  font-size: 1.5em;
-}  
 
 p {
     font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
