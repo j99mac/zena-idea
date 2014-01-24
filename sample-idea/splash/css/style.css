@@ -270,13 +270,13 @@ body {
  position: relative;
 }
 .p-splash-top {
- font-size: 20px;
+ font-size: 18px;
  opacity: .7;
  color: #FFF;
  text-align: left;
  display: block;
  position: relative;
- margin-top: 48%;
+ margin-top: 28%;
  margin-bottom: 5%;
  width: 100%;
  min-width: 320px;
