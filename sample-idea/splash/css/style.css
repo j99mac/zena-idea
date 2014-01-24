@@ -105,8 +105,8 @@ body {
 	position: relative;
 	margin-top: 20%;
 	margin-bottom: 2%;
-	min-width: 90%;
-	max-width: 95px;
+	min-width: 95%;
+	max-width: 99px;
 }
 .button-splash-top {
 	font-size: 18px;
@@ -251,7 +251,6 @@ html {
 -ms-text-size-adjust:none;
 }
 body {
- 	-webkit-text-size-adjust:auto;
  	font-family:ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
 }
 /* Splash Page */
@@ -273,6 +272,7 @@ body {
  	display: block;
  	position: relative;
  	margin-top: 2%;
+ 	width: 100%;
 }
 .button-splash-top {
  	font-size: 18px;
