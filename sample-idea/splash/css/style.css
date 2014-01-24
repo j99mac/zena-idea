@@ -103,10 +103,9 @@ body {
 	text-align: left;
 	display: block;
 	position: relative;
-	margin-top: 20%;
-	margin-bottom: 2%;
-	min-width: 95%;
-	max-width: 99px;
+	margin-top: 25%;
+	margin-bottom: 5%;
+	width:100%;
 }
 .button-splash-top {
 	font-size: 18px;
