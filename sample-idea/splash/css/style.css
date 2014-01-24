@@ -1,4 +1,4 @@
-//********************
+/********************
 Header
 ********************/
 
@@ -103,10 +103,10 @@ body {
 	text-align: left;
 	display: block;
 	position: relative;
-	margin-top: 30%;
+	margin-top: 20%;
 	margin-bottom: 2%;
 	min-width: 90%;
-	max-width: 800px;
+	max-width: 700px;
 }
 .button-splash-top {
 	font-size: 18px;
@@ -116,6 +116,7 @@ body {
 	position: relative;
 	float: right;
 	margin-right: 7%;
+	margin-bottom: 2%;
 }
 .caption-splash {
 	font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
@@ -243,19 +244,16 @@ footer p {
 	font-size: 12pt;
 	font-weight: 400;
 }
-@media all and max-width1000px and min-width500px {
-body {
- width: 100%;
-}
+
 @media screen and (max-device-width: 480px) {
 html {
 -webkit-text-size-adjust:none;
 -ms-text-size-adjust:none;
 }
 body {
- -webkit-text-size-adjust:auto;
- font-family:ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
- padding:5px;
+ 	-webkit-text-size-adjust:auto;
+ 	font-family:ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+ 	padding:5px;
 }
 /* Splash Page */
 .h1-splash-top {
@@ -276,7 +274,7 @@ body {
  	display: block;
  	position: relative;
  	margin-top: 2%;
- 	width: 100%;
+ 	width: 90%;
 	min-width: 90%;
 }
 .button-splash-top {
@@ -287,6 +285,7 @@ body {
  	position: relative;
  	float: right;
  	margin-right: 7%;
+	margin-bottom: 2%;
 }
 
 
