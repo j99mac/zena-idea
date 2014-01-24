@@ -1,314 +1,300 @@
 /********************
 Header
 ********************/
-@import url("_header.css");
+
+/********************
+Mobile
+********************/
 
 /* */
-html {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  *zoom: 1;
-}
 body {
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust:auto;
-    height: 100%;
-    width: 100%;
-}
-.btn {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 16px;
-  font-weight: 400;
-
-}  
-.btn-default {
-  color: #333;   
-  background-color:transparent;
-  border-color: #ccc;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+	width: 100%;
+ *zoom: 1;
 }
 /* Nav bar color */
 .navbar {
-    background-color: #d6d4d0;
+	background-color: #d6d4d0;
 }
 /* site with (containers)*/
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
 .site-width {
-    max-width: 1000px;
-    width: 90%;
-    clear: left;
-    margin: 0 auto;
+	max-width: 1000px;
+	width: 90%;
+	clear: left;
+	margin: 0 auto;
 }
-
 .copy-width {
-    width: 81.533333333333%;
-    clear: left;
-    float: none;
-    margin: 0 .8999999999999999% 0 9.2333333333333%;
+	width: 81.533333333333%;
+	clear: left;
+	float: none;
+	margin: 0 .8999999999999999% 0 9.2333333333333%;
+	display: block;
 }
-
 /* general */
-.h1-splash-top {
-    font-size: 24px;
-    opacity: .7;
-    text-align: left;
-    position: relative;
-}  
-.p-splash-top {
-    font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
-    opacity: .7;
-    text-align: left;
-    font-size: 18px;
-    padding-top: 5%;
-    position: relative;
+.section.top {
+	margin: 0;
+	margin-top: 25px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
 }
-.button-splash-top {
-    font-size: 3.4285714285714284em;
-    opacity: .6;
-    text-align: right;
-    font-size: 18px;
-    padding-right: 5%;
-    position: relative;
-}  
 .section.top img {
-    display: block;
-    height: auto;
-    left: 0;
-    max-width: 100%;
-    position: relative;
-    top: 0px;
-    width: 100%;
-    z-index: 0;
-    margin-bottom: 40px
+	display: block;
+	height: auto;
+	left: 0;
+	max-width: 100%;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	z-index: 0;
+	margin-bottom: 40px
 }
 .section.top .container {
-    width: none;
-    max-width: none;
-    position: absolute;
-    top: 0;
-    width: 70%;
-    max-height: 480px;
-    z-index: 1;
-    float: left;
-    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
-    margin-top: 40px;
-    margin-left: 40px;
-    color: #a8a59c;
-    font-size: 7.5vw;
-    letter-spacing: -1px;
-    line-height: 1;
-    opacity: .7
+	width: none;
+	max-width: none;
+	position: absolute;
+	top: 0;
+	width: 70%;
+	max-height: 480px;
+	z-index: 1;
+	float: left;
+	font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+	margin-top: 40px;
+	margin-left: 40px;
+	color: #a8a59c;
+	font-size: 7.5vw;
+	letter-spacing: -1px;
+	line-height: 1;
+	text-align: left;
+	opacity: .7
 }
 .section-top-caption {
-    font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-    font-style: italic;
-    color: #4c4c4c;
-    font-size: 1.9vw;
-    line-height: 33px;
-    font-weight: 100;
-    margin-left: 55%;
-    margin-top: 0px
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	color: #4c4c4c;
+	font-size: 1.9vw;
+	line-height: 33px;
+	font-weight: 100;
+	margin-left: 55%;
+	margin-top: 0px
 }
-
-ul,li,ol,dl,dd,dt {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+/* Splash Page */
+.h1-splash-top {
+	text-align: left;
+	vertical-align: top;
+	display: block;
+	font-size: 60px;
+	opacity: .7;
+	color: #FFF;
+	margin-top:-30%;
+	position: relative;
 }
-
+.p-splash-top {
+	font-size: 20px;
+	opacity: .7;
+	color: #FFF;
+	text-align: left;
+	display: block;
+	position: relative;
+	margin-top: 75%;
+	margin-bottom: 2%;
+}
+.button-splash-top {
+	font-size: 18px;
+	opacity: .7;
+	color: #FFF;
+	display: block;
+	position: relative;
+	float: right;
+	margin-right: 5%;
+}
+.caption-splash {
+	font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	color: #4c4c4c;
+	font-size: 1.5vw;
+	line-height: 33px;
+	font-weight: 100;
+	text-align: center;
+	font-weight: 400;
+	top: 2%;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+ul, li, ol, dl, dd, dt {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
 /* Typography */
-h1, h2, h3 {
-  margin: 0;
-}    
-h1 {
-    font-size: 3.4285714285714284em;
-}
-
-h2 {
-    font-size: 2.2857142857142856em;
-}
-
-h3 {
-  font-size: 1.7142857142857142em;
-}
-
-h4 {
-  font-size: 1.5em;
-}  
 
 p {
-    font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
-    font-size: 26px;
-    line-height: 39px;
-    font-weight: 400;
-    margin-bottom: 35px;
-}
-.left {
-    text-align: left;
-    width: 100%;
-}
-.right {
-    text-align: right;
-    width: 100%;
-}
-.center {
-    text-align: center;
-    width: 100%;
-}
-.justify {
-    text-align: justify;
-    width: 100%;
+	font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+	font-size: 26px;
+	line-height: 39px;
+	font-weight: 400;
+	margin-bottom: 35px;
 }
 .break {
-    font-family: ff-meta-serif-web-pro, Arial, Times, "Times New Roman", serif;
-    color: #666;
-    font-size: 60px;
-    line-height: 60px;
-    font-weight: 600;
-    margin-top: 30px;
-    margin-bottom: 25px;
-    text-align: center;
+	font-family: ff-meta-serif-web-pro, Arial, Times, "Times New Roman", serif;
+	color: #666;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 600;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	text-align: center;
 }
-
 .quote {
-    font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
-    color: #4c4c4c;
-    font-size: 20px;
-    line-height: 34px;
-    font-weight: 100;
-    margin-bottom: 2%;
-    margin-left: 60px;
-    width: 80%;
+	font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+	color: #4c4c4c;
+	font-size: 20px;
+	line-height: 34px;
+	font-weight: 100;
+	margin-bottom: 2%;
+	margin-left: 60px;
+	width: 80%;
 }
 /*  Image and Caption */
+img {
+	max-width: 100%;
+}
+.divider img {
+	width: 100%;
+	max-width: 100%;
+	margin-top: 1%;
+	margin-right: auto;
+	margin-bottom: 1%;
+	margin-left: auto;
+	display: block;
+}
 .img-center {
-    width: 80%;
-    max-width: 100%;
-    min-width: 60%;
-    margin-top: 1%;
-    margin-right: auto;
-    margin-bottom: 1%;
-    margin-left: auto;
-    display: block;
+	width: 80%;
+	max-width: 100%;
+	min-width: 60%;
+	margin-top: 1%;
+	margin-right: auto;
+	margin-bottom: 1%;
+	margin-left: auto;
+	display: block;
 }
 .img-center-b {
-  margin: 0 auto;
-  width: 80%;
-  max-width: 99%;
-  min-width: 80%;
-  display: block;
-  vertical-align: center;
-  margin-top: ;
-  border: 4px solid #000;
+	width: 70%;
+	max-width: 90%;
+	min-width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border: thin solid #000;
+	position: relative;
+	top: 1%;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 .art-caption {
-    font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
-    font-style: italic;
-    color: #4c4c4c;
-    font-size: 2vw;
-    line-height: 33px;
-    font-weight: 100;
-    text-align: center;
-    font-weight: 400;
-    margin-bottom: 2%;h1
+	font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	color: #4c4c4c;
+	font-size: 2vw;
+	line-height: 33px;
+	font-weight: 100;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 5%;
 }
-
+#overlay-box p {
+	position:absolute;
+	top: 60%;
+	margin: 0 .8999999999999999%;
+	font-size: 3vw;
+	line-height: 4vw;
+}
 /* footer button */
-.footer-button {
-    text-align: center;
-    vertical-align: middle;
-    margin: 0 auto;
-    padding: 4%;
+footer-button {
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding: 4%;
 }
 /* footer */
 footer {
-    background-color: #d6d4d0;
-    height: 100px;
-    width: 100%;
-    padding-left: 2%;
-    padding-right: 2%;
+	background-color: #d6d4d0;
+	height: 100px;
+	width: 100%;
+	padding-left: 2%;
+	padding-right: 2%;
 }
-
-footer  p{
-    font-size: 12pt;
-    font-weight: 400;
+footer p {
+	font-size: 12pt;
+	font-weight: 400;
 }
-
-/*------------------------------------*\
-    $IPHONE
-\*------------------------------------*/
-@media screen and (max-device-width: 480px){
-body{
-     font-family:ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
-     padding:5px;
-}
-p {
-}
-
-@media all and max-width1000px and min-width500px {
+ @media all and max-width1000px and min-width500px {
 body {
-     width: 100%;
+ width: 100%;
 }
-
+ p {
+ font-size: 23px;
+ line-height: 34px;
+ margin-bottom: 35x;
+}
 .site-width {
-    max-width: 1000px;
-    width: 90%;
-    clear: left;
-    margin: 0 auto;
+ max-width: 1000px;
+ width: 90%;
+ clear: left;
+ margin: 0 auto;
 }
 .copy-width {
-    width: 81.533333333333%;
-    clear: left;
-    float: none;
-    margin: 0 .8999999999999999% 0 9.2333333333333%;
+ width: 81.533333333333%;
+ clear: left;
+ float: none;
+ margin: 0 .8999999999999999% 0 9.2333333333333%;
 }
-
 }
 /* Print */
 @media print {
 * {
-    min-height: inherit !important;
-} 
+	min-height: inherit !important;
+}
 #container, {
-    width:auto;
-    position: static;
-    float:none;
-    margin:0;
-    overflow:visible;
-    background-color:transparent;
-    border:none;
-    min-height:auto;
+ width:auto;
+ position: static;
+ float:none;
+ margin:0;
+ overflow:visible;
+ background-color:transparent;
+ border:none;
+ min-height:auto;
 }
-
 p {
-    font-size: 13px;
+	font-size: 13px;
 }
-
 img {
-    max-width: 500px;
-
-}.navbar {
-    display: none;
-}  
-.btn{
-     display: none;
+	max-width: 500px;
 }
-
+.navbar {
+	display: none;
+}
+.btn {
+	display: none;
+}
 .footer {
-     display: none;
-  }
+	display: none;
+}
 .footer p {
-     display: none;
-  }
-
-@page :left {
+	display: none;
+}
+ @page :left {
 margin: 0.5cm;
 }
-
-@page :right {
+ @page :right {
 margin: 0.8cm;
-}
 }
