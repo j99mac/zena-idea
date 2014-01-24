@@ -260,7 +260,7 @@ body {
  	font-size: 50px;
  	opacity: .7;
  	color: #FFF;
- 	margin-top:-10%;
+ 	margin-top:-14%;
  	position: relative;
 }
 .p-splash-top {
@@ -271,7 +271,7 @@ body {
  	display: block;
  	position: relative;
  	margin-top: 10%;
- 	margin-bottom: 10%;
+ 	margin-bottom: 5%;
  	width: 100%;
 }
 .button-splash-top {
