@@ -1,4 +1,4 @@
-/********************
+//********************
 Header
 ********************/
 
@@ -104,9 +104,9 @@ body {
 	display: block;
 	position: relative;
 	margin-top: 30%;
-	margin-bottom: 5%;
-	min-width: 80%;
-	max-width: 80%;
+	margin-bottom: 2%;
+	min-width: 90%;
+	max-width: 800px;
 }
 .button-splash-top {
 	font-size: 18px;
@@ -259,74 +259,72 @@ body {
 }
 /* Splash Page */
 .h1-splash-top {
- text-align: left;
- vertical-align: top;
- display: block;
- font-size: 50px;
- opacity: .7;
- color: #FFF;
- margin-top:-12%;
- position: relative;
+	text-align: left;
+ 	vertical-align: top;
+ 	display: block;
+ 	font-size: 50px;
+ 	opacity: .7;
+ 	color: #FFF;
+ 	margin-top:-12%;
+ 	position: relative;
 }
 .p-splash-top {
- font-size: 18px;
- opacity: .7;
- color: #FFF;
- text-align: left;
- display: block;
- position: relative;
- margin-top: 2%;
- margin-bottom: 2%;
- width: 100%;
- min-width: 90%;
+ 	font-size: 16px;
+ 	opacity: .7;
+ 	color: #FFF;
+ 	text-align: left;
+ 	display: block;
+ 	position: relative;
+ 	margin-top: 2%;
+ 	width: 100%;
+	min-width: 90%;
 }
 .button-splash-top {
- font-size: 18px;
- opacity: .7;
- color: #FFF;
- display: block;
- position: relative;
- float: right;
- margin-right: 7%;
+ 	font-size: 18px;
+ 	opacity: .7;
+ 	color: #FFF;
+ 	display: block;
+ 	position: relative;
+ 	float: right;
+ 	margin-right: 7%;
 }
 
 
 /* Print */
 @media print {
 * {
- min-height: inherit !important;
+	min-height: inherit !important;
 }
 #container, {
- width:auto;
- position: static;
- float:none;
- margin:0;
- overflow:visible;
- background-color:transparent;
- border:none;
- min-height:auto;
+	width:auto;
+	position: static;
+	float:none;
+	margin:0;
+ 	background-color:transparent;
+ 	border:none;
+	min-height:auto;
 }
 p {
- font-size: 13px;
+ 	font-size: 13px;
 }
 img {
- max-width: 500px;
+ 	max-width: 500px;
 }
 .navbar {
- display: none;
+ 	display: none;
 }
 .btn {
- display: none;
+ 	display: none;
 }
 .footer {
- display: none;
+ 	display: none;
 }
 .footer p {
- display: none;
+ 	display: none;
 }
  @page :left {
-margin: 0.5cm;
+	margin: 0.5cm;
 }
  @page :right {
-margin: 0.8cm;
+	margin: 0.8cm;
 }
