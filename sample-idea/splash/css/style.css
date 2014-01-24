@@ -243,7 +243,7 @@ footer p {
 	font-weight: 400;
 }
 
-@media screen and (min-device-width: 480px) {
+@media screen and (max-device-width: 480px) {
 html {
 -webkit-text-size-adjust:auto;
 -ms-text-size-adjust:none;
