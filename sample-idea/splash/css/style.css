@@ -246,7 +246,7 @@ footer p {
 
 @media screen and (max-device-width: 480px) {
 html {
--webkit-text-size-adjust:none;
+-webkit-text-size-adjust:auto;
 -ms-text-size-adjust:none;
 }
 body {
@@ -270,7 +270,8 @@ body {
  	text-align: left;
  	display: block;
  	position: relative;
- 	margin-top: 5%;
+ 	margin-top: 10%;
+ 	margin-bottom: 10%;
  	width: 100%;
 }
 .button-splash-top {
