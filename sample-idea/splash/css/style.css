@@ -272,7 +272,7 @@ body {
  	width: 90%;	
 }
 .p-splash-top {
- 	font-size: 16px;
+ 	font-size: 100%;
  	opacity: .7;
  	color: #FFF;
  	text-align: left;
@@ -284,7 +284,7 @@ body {
  	width: 100%;
 }
 .button-splash-top {
- 	font-size: 18px;
+ 	font-size: 14px;
  	opacity: .7;
  	color: #FFF;
  	display: block;
