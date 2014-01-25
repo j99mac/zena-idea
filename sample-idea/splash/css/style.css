@@ -86,12 +86,25 @@ body {
 	margin-top: 10px;
 }
 /* Splash Page */
+.center-splash-top {
+	text-align: center;
+	vertical-align: top;
+	display: block;
+	opacity: .5;
+	color: #FFF;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: -15%;
+	position: relative;
+	width: 90%;
+}
 .h1-splash-top {
+    font-family: 'Finger Paint';
 	text-align: left;
 	vertical-align: top;
 	display: block;
-	font-size: 50px;
-	opacity: .7;
+	font-size: 60px;
+	opacity: .4;
 	color: #FFF;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -100,8 +113,10 @@ body {
 	width: 90%;
 }
 .p-splash-top {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
 	font-size: 20px;
-	opacity: .6;
+    line-height: 1.5pt;
+	opacity: .7;
 	color: #FFF;
 	text-align: left;
 	display: block;
