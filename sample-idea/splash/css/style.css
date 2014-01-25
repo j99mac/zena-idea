@@ -122,7 +122,7 @@ body {
 	position: relative;
 	float: right;
 	margin-right: 10%;
-	margin-bottom: 5%;
+	margin-bottom: 7%;
 }
 .caption-splash {
 	font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
@@ -294,6 +294,7 @@ body {
  	position: relative;
  	float: right;
  	margin-right: 10%; 
+ 	margin-bottom: 2%;
 }
 
 /* Print */
