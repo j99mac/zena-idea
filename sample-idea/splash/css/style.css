@@ -93,6 +93,7 @@ body {
 	font-size: 50px;
 	opacity: .7;
 	color: #FFF;
+	margin-left: 7%;
 	margin-top:-20%;
 	position: relative;
 }
@@ -103,7 +104,7 @@ body {
 	text-align: left;
 	display: block;
 	position: relative;
-	margin-left: 10%;
+	margin-left: 7%;
 	margin-right: 10%;
 	margin-top: 30%;
 	margin-bottom: 5%;
@@ -261,6 +262,7 @@ body {
  	font-size: 50px;
  	opacity: .7;
  	color: #FFF;
+ 	margin-left: 7%;
  	margin-top:-25%;
  	position: relative;
 }
@@ -271,7 +273,7 @@ body {
  	text-align: left;
  	display: block;
  	position: relative;
- 	margin-left: 10%;
+ 	margin-left: 7%;
 	margin-right: 10%;
  	margin-top: 23%;
  	margin-bottom: 10%;
