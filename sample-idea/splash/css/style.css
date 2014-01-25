@@ -83,7 +83,7 @@ body {
 	line-height: 33px;
 	font-weight: 100;
 	margin-left: 55%;
-	margin-top: -10px;
+	margin-top: 10px;
 }
 /* Splash Page */
 .h1-splash-top {
@@ -199,7 +199,7 @@ img {
 	min-width: 50%;
 	margin-right: auto;
 	margin-left: auto;
-	top: 5%;
+	top: 2%;
 	text-align: center;
 	display: block;
 	border: thin solid #000;
