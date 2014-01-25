@@ -292,7 +292,7 @@ body {
  	float: right;
  	margin-right: 7%;
 }
-@media screen and (max-device-width: 320px) {
+@media screen and (min-device-width: 320px) {
 .p-splash-top {
  	font-size: 13px;
  	opacity: .7;
