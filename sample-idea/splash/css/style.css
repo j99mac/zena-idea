@@ -248,7 +248,7 @@ footer p {
 	font-size: 12pt;
 	font-weight: 400;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
 .p-splash-top {
  	font-size: 14px;
  	opacity: .7;
