@@ -306,17 +306,6 @@ body {
  	margin-bottom: 1%;
  	width: 90%;
 }
-.button-splash-top {
- 	font-size: 14px;
- 	opacity: .7;
- 	color: #FFF;
- 	display: block;
- 	position: relative;
- 	float: right;
- 	margin-right: 7%;
- 	margin-top: 5%;
-}
-
 /* Print */
 @media print {
 * {
