@@ -530,12 +530,3 @@
 
 
 })( jQuery, window, document );
-
-
-
-
-$(function () {
-    $('.curtains').curtain({
-        scrollSpeed: 400
-    });
-});
