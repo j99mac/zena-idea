@@ -248,31 +248,6 @@ footer p {
 	font-size: 12pt;
 	font-weight: 400;
 }
-@media screen and (min-device-width: 320px) {
-.p-splash-top {
- 	font-size: 14px;
- 	opacity: .7;
- 	color: #FFF;
- 	text-align: left;
- 	display: block;
- 	position: relative;
- 	margin-right: 20%;
- 	margin-top: 15%;
- 	margin-bottom: 3%;
- 	min-width: 90%;
- 	max-width: 92%;
-}
-.button-splash-top {
- 	font-size: 14px;
- 	opacity: .7;
- 	color: #FFF;
- 	display: block;
- 	position: relative;
- 	float: right;
- 	margin-right: 7%;
- 	margin-top: -3%;
-}
-
 
 @media screen and (max-device-width: 480px) {
 html {
