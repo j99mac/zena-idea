@@ -293,7 +293,19 @@ body {
  	margin-right: 7%;
 }
 @media screen and (max-device-width: 320px) {
-	.button-splash-top {
+.p-splash-top {
+ 	font-size: 13px;
+ 	opacity: .7;
+ 	color: #FFF;
+ 	text-align: left;
+ 	display: block;
+ 	position: relative;
+ 	margin-right: 18%;
+ 	margin-top: 20%;
+ 	margin-bottom: 1%;
+ 	width: 90%;
+}
+.button-splash-top {
  	font-size: 14px;
  	opacity: .7;
  	color: #FFF;
