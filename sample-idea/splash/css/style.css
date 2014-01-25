@@ -256,6 +256,7 @@ html {
 	-ms-text-size-adjust:none;
 }
 body {
+	-webkit-text-size-adjust:auto;
 	-webkit-font-smoothing: antialiased;
  	font-family:ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
 }
