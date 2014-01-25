@@ -292,7 +292,17 @@ body {
  	float: right;
  	margin-right: 7%;
 }
-
+@media screen and (max-device-width: 320px) {
+	.button-splash-top {
+ 	font-size: 14px;
+ 	opacity: .7;
+ 	color: #FFF;
+ 	display: block;
+ 	position: relative;
+ 	float: right;
+ 	margin-right: 7%;
+ 	margin-top: 10%;
+}
 
 /* Print */
 @media print {
