@@ -252,7 +252,7 @@ footer p {
 
 @media screen and (max-device-width: 480px) {
 html {
-	-webkit-text-size-adjust:none;
+	-webkit-text-size-adjust:auto;
 	-ms-text-size-adjust:none;
 }
 body {
