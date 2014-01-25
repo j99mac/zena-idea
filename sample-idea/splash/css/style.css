@@ -272,14 +272,14 @@ body {
  	width: 90%;	
 }
 .p-splash-top {
- 	font-size: 100%;
+ 	font-size: 13px;
  	opacity: .7;
  	color: #FFF;
  	text-align: left;
  	display: block;
  	position: relative;
- 	margin-right: 15%;
- 	margin-top: 20%;
+ 	margin-right: 18%;
+ 	margin-top: 15%;
  	margin-bottom: 2%;
  	width: 100%;
 }
@@ -291,7 +291,7 @@ body {
  	position: relative;
  	float: right;
  	margin-right: 7%;
- 	margin-top: -5%;
+ 	margin-top: -3%;
 }
 
 
