@@ -102,7 +102,7 @@ body {
 }
 .p-splash-top {
 	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-	font-size: 16px;
+	font-size: 20px;
 	opacity: .7;
 	color: #FFF;
 	text-align: left;
@@ -110,7 +110,7 @@ body {
 	position: relative;
 	margin-left: 5%;
 	margin-right: 5%;
-	margin-top: 40%;
+	margin-top: 42%;
 	margin-bottom: 3%;
 	width:90%;
 }
