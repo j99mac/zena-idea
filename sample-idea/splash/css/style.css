@@ -93,11 +93,8 @@ body {
 	font-size: 50px;
 	opacity: .7;
 	color: #FFF;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top:-30%;
+	margin-top:-20%;
 	position: relative;
-	width: 90%;
 }
 .p-splash-top {
 	font-size: 20px;
@@ -106,7 +103,7 @@ body {
 	text-align: left;
 	display: block;
 	position: relative;
-	margin-left: 5%;
+	margin-left: 7%;
 	margin-right: 5%;
 	margin-top: 30%;
 	margin-bottom: 5%;
@@ -264,11 +261,8 @@ body {
  	font-size: 50px;
  	opacity: .7;
  	color: #FFF;
- 	margin-left: 5%;
-	margin-right: 5%;
- 	margin-top:-20%;
+ 	margin-top:-25%;
  	position: relative;
- 	width: 90%;	
 }
 .p-splash-top {
  	font-size: 16px;
@@ -277,7 +271,9 @@ body {
  	text-align: left;
  	display: block;
  	position: relative;
- 	margin-top: 25%;
+ 	margin-left: 5%;
+	margin-right: 5%;
+ 	margin-top: 23%;
  	margin-bottom: 10%;
  	width: 100%;
 }
@@ -289,7 +285,6 @@ body {
  	position: relative;
  	float: right;
  	margin-right: 7%;
-	margin-bottom: 2%;
 }
 
 
