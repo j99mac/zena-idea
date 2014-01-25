@@ -115,7 +115,7 @@ body {
 .p-splash-top {
 	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
 	font-size: 18px;
-    line-height: 1.25pt;
+    line-height: 1pt;
 	opacity: .7;
 	color: #FFF;
 	text-align: left;
@@ -124,7 +124,7 @@ body {
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-top: 40%;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 	width:90%;
 }
 .button-splash-top {
