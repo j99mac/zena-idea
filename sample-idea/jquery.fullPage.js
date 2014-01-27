@@ -11,7 +11,7 @@
 		// Create some defaults, extending them with any options that were provided
 		options = $.extend({
 			"verticalCentered" : true,
-			'resize' : false,
+			'resize' : true,
 			'slidesColor' : [],
 			'anchors':[],
 			'scrollingSpeed': 600,
@@ -21,7 +21,7 @@
 			'navigationPosition': 'right',
 			'navigationColor': '#000',
 			'navigationTooltips': [],
-			'slidesNavigation': false,
+			'slidesNavigation': true,
 			'slidesNavPosition': 'bottom',
 			'controlArrowColor': '#fff',
 			'loopBottom': false,
