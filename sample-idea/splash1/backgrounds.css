@@ -72,11 +72,11 @@ h3 {
 	display:block;
 }
 #section2 {
-	background-image: url(imgs/002a.jpg);
-	padding: 0;
+	background-image: url(imgs/);
+	padding: 6% 0 0 0;
 }
 #section3 {
-	background-image: url(imgs/bg4.jpg);
+	background-image: url(imgs/);
 	padding: 6% 0 0 0;
 }
 #section3 h1 {
