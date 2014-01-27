@@ -289,7 +289,7 @@ body {
 	margin-right: 10%;
 	margin-top: 60%;
 	margin-bottom: 10px;
-	width: 50%;
+	width: 90%;
 }
 .h1-splash-top {
 	text-align: left;
@@ -316,6 +316,8 @@ body {
  	opacity: .7;
  	color: #FFF;
  	text-align: left;
+ 	margin-left: 15%;
+	margin-right: 15%;
  	display: block;
  	position: relative;
  	min-width: 90%;
