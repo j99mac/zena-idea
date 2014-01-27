@@ -46,13 +46,16 @@ ul {
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size: cover;
-	padding:0;
+	padding: 6% 0 0 0;
+	width: 100%;
 }
 #section2 {
 	background-image: url(imgs/002a.jpg);
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size: cover;
+	padding: 6% 0 0 0;
+	width: 100%;
 }
 #section3 {
 	background-image: url(imgs/.jpg);
