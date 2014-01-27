@@ -271,7 +271,7 @@ html {
 	-ms-text-size-adjust:none;
 }
 body {
-	-webkit-text-size-adjust:auto;
+	-webkit-text-size-adjust:none;
 	-webkit-font-smoothing: antialiased;
  	font-family:ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
 }
@@ -300,7 +300,7 @@ body {
  	color: #FFF;
  	margin-left: 15%;
 	margin-right: 5%;
- 	margin-top: -10%;
+ 	margin-top: -20%;
  	position: relative;
  	width: 90%;	
 }
