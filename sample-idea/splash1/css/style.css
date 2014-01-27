@@ -276,6 +276,21 @@ body {
  	font-family:ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
 }
 /* Splash Page */
+.center-splash-top {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-size: 24px;
+	line-height: 1.25em;
+	opacity: .8;
+	color: #FFF;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-left: 15%;
+	margin-right: 5%;
+	margin-top: 20%;
+	margin-bottom: 2px;
+	width: 70%;
+}
 .h1-splash-top {
 	text-align: left;
  	vertical-align: top;
@@ -283,7 +298,7 @@ body {
  	font-size: 50px;
  	opacity: .7;
  	color: #FFF;
- 	margin-left: 5%;
+ 	margin-left: 20%;
 	margin-right: 5%;
  	margin-top:-18%;
  	position: relative;
