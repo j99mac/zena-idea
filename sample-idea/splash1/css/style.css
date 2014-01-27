@@ -295,7 +295,7 @@ body {
 	text-align: left;
  	vertical-align: top;
  	display: block;
- 	font-size: 50px;
+ 	font-size: 30px;
  	opacity: .7;
  	color: #FFF;
  	margin-left: 10%;
@@ -303,6 +303,13 @@ body {
  	margin-top:-18%;
  	position: relative;
  	width: 90%;	
+}
+.h2 {
+	text-align: left;
+ 	display: block;
+ 	font-size: 22px;
+ 	opacity: .7;
+ 	color: #FFF;
 }
 .p-splash-top {
  	font-size: 16px;
