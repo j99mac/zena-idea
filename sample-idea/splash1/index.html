@@ -1,67 +1,58 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
-	<title>Zena Posever</title>
-	<meta name="author" content="" />
-	<meta name="description" content="fullPage very simple demo." />
-	<meta name="keywords"  content="fullpage,jquery,demo,simple" />
-	<meta name="Resource-type" content="Document" />
-	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=2">
-	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="backgrounds.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-
-	<!--[if IE]>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FullScrren Backgrounds - fullPage.js</title>
+<meta name="author" content="Alvaro Trigo Lopez" />
+<meta name="description" content="fullPage full-screen backgrounds." />
+<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,backgrounds,full-screen" />
+<meta name="Resource-type" content="Document" />
+<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+<link rel="stylesheet" type="text/css" href="css/backgrounds.css" />
+<!--[if IE]>
 		<script type="text/javascript">
 			 var console = { log: function() {} };
 		</script>
 	<![endif]-->
-		
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
-	
-	<script type="text/javascript" src="../jquery.fullPage.js"></script>
-	<script type="text/javascript">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../jquery.fullPage.js"></script>
+<script type="text/javascript" src="examples.js"></script>
+<script type="text/javascript">
 		$(document).ready(function() {
-			var pepe = $.fn.fullpage({
-				slidesColor: ['#f2f2f2', '#f2f2f2', '#f2f2f2', '#f2f2f2', '#f2f2f2']
+			$.fn.fullpage({
+				'verticalCentered': false
 			});
 		});
 	</script>
-
-<html>
-<head>
-    <title></title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-    <div class="section">
-        <div class="slide" id="section1">
-            <div class="h1-splash-top">Zena Posever
-                <h2>Artist and Activist, 1911-2012</h2><a class=
-                "btn btn-default" href="zena-play.html">HER STORIES</a>
-            </div>
-        </div>
-
-        <div class="slide" id="section2">
-        	 <div class="p-splash-top">
-                <h2>Zena Posever</h2>
-                <p>was a master sculptress and painter whose portrait commissions can be found in the collections of the National Portrait Gallery, Wolfsonian Museum, and Penn Art Academy</p>
- 			 </div>      
-        </div>
+</div>
+<div class="section" id="section1">
+  <div class="slide" id="slide1">
+    <div class="slide1-text">
+      <h1>Zena Posever</h1>
+      <h3>Artist and Activist, 1911-2012</h3>
+      <div class="btn-left"><a class="btn btn-default" href="zena-play.html">HER STORIES</a></div>
     </div>
-
-    <div class="section">
-        <img alt="Studio" class="img-center-b" src="imgs/studio.jpg">
-
-        <p class="caption-splash">Art Studio, Miami Beach 1965</p>
+  </div>
+  <div class="slide" id="slide2">
+    <div id="bootom3rd">
+      <h2>Zena Posever</h2>
+      <h3>was a master sculptress and painter whose portrait commissions can be found in the collections of the National Portrait Gallery, Wolfsonian Museum, and Penn Art Academy</h3>
     </div>
-
-    <div class="section">
-        <p>Contact Us</p>
-    </div>
+  </div>
+</div>
+</div>
+<div class="section" id="section2"> <img alt="Studio" class="img-center-b" src="imgs/studio.jpg">
+  <p class="caption-splash">Art Studio, Miami Beach 1965</p>
+  </h1>
+</div>
+<div class="section" id="section3">
+  <h21>
+  Contact Us
+  </h2>
+</div>
 </body>
 </html>
