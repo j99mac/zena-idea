@@ -12,7 +12,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	height: 100%;
 	width: 100%;
- 	*zoom: 1;
+ *zoom: 1;
 }
 /* Nav bar color */
 .navbar {
@@ -85,6 +85,60 @@ body {
 	margin-left: 55%;
 	margin-top: 10px;
 }
+.slide1-text {
+	width: 81.5333%;
+	clear: left;
+	float: none;
+	display: block;
+	margin-left: 7%;
+	margin-top: 5%;
+}
+
+/* button */
+.btn {
+	display:inline-block;
+	margin-bottom:0;
+	font-weight:400;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+	background-image:none;
+	border:1px solid transparent;
+	white-space:nowrap;
+	padding:6px 12px;
+	font-size:14px;
+	line-height:1.428571429;
+	border-radius:4px;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none
+}
+.btn-default {
+	color:#333;
+	background-color:#fff;
+	opacity: .7;
+	border-color:#ccc
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	color:#333;
+	background-color:#ebebeb;
+	border-color:#adadad
+}
+.btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	background-image:none
+}
+.btn-default.disabled, .btn-default[disabled], fieldset[disabled] .btn-default, .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled:active, .btn-default[disabled]:active, fieldset[disabled] .btn-default:active, .btn-default.disabled.active, .btn-default[disabled].active, fieldset[disabled] .btn-default.active {
+	background-color:#fff;
+	opacity: .6;
+	border-color:#ccc
+}
+.btn-left {
+	text-align:left;
+	padding-left: 10%;
+	padding-top: 2%;
+}
 /* Splash Page */
 .center-splash-top {
 	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
@@ -100,44 +154,6 @@ body {
 	margin-top: 5%;
 	margin-bottom: 2px;
 	width: 90%;
-}
-.h1-splash-top {
-    font-family: 'Finger Paint';
-	text-align: left;
-	vertical-align: top;
-	display: block;
-	font-size: 50px;
-	opacity: .6;
-	color: #FFF;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: -25%;
-	position: relative;
-	width: 90%;
-}
-.p-splash-top {
-	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-	font-size: 22px;
-	opacity: .8;
-	color: #FFF;
-	text-align: left;
-	display: block;
-	position: relative;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 5%;
-	margin-bottom: 2px;
-	width:80%;
-}
-.button-splash-top {
-	font-size: 18px;
-	opacity: .6;
-	color: #FFF;
-	display: block;
-	position: relative;
-	float: right;
-	margin-right: 10%;
-	margin-bottom: 7%;
 }
 .caption-splash {
 	font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
@@ -264,115 +280,114 @@ footer p {
 	font-size: 12pt;
 	font-weight: 400;
 }
-
-@media screen and (max-device-width: 480px) {
+ @media screen and (max-device-width: 480px) {
 html {
-	-webkit-text-size-adjust:auto;
-	-ms-text-size-adjust:none;
+ -webkit-text-size-adjust:auto;
+ -ms-text-size-adjust:none;
 }
 body {
-	-webkit-text-size-adjust:auto;
-	-webkit-font-smoothing: antialiased;
- 	font-family:ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+ -webkit-text-size-adjust:auto;
+ -webkit-font-smoothing: antialiased;
+ font-family:ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
 }
 /* Splash Page */
 .center-splash-top {
-	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-	font-size: 24px;
-	line-height: 1.25em;
-	opacity: .8;
-	color: #FFF;
-	text-align: center;
-	display: block;
-	position: relative;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 60%;
-	margin-bottom: 10px;
-	width: 90%;
+ font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+ font-size: 24px;
+ line-height: 1.25em;
+ opacity: .8;
+ color: #FFF;
+ text-align: center;
+ display: block;
+ position: relative;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 60%;
+ margin-bottom: 10px;
+ width: 90%;
 }
 .h1-splash-top {
-	text-align: left;
- 	vertical-align: top;
- 	display: block;
- 	font-size: 20px;
- 	opacity: .7;
- 	color: #FFF;
- 	padding-left: 20%;
-	padding-right: 20%;
- 	margin-top: 5%;
- 	position: relative;
- 	width: 80%;	
+ text-align: left;
+ vertical-align: top;
+ display: block;
+ font-size: 20px;
+ opacity: .7;
+ color: #FFF;
+ padding-left: 20%;
+ padding-right: 20%;
+ margin-top: 5%;
+ position: relative;
+ width: 80%;
 }
 .h2 {
-	text-align: left;
- 	display: block;
- 	font-size: 18px;
- 	opacity: .7;
- 	color: #FFF;
- 	padding-left: 20%;
-	padding-right: 20%;
- 	margin-top: 5%;
- 	width: 80%;
+ text-align: left;
+ display: block;
+ font-size: 18px;
+ opacity: .7;
+ color: #FFF;
+ padding-left: 20%;
+ padding-right: 20%;
+ margin-top: 5%;
+ width: 80%;
 }
 .p-splash-top {
- 	font-size: 1.9vw;
- 	opacity: .7;
- 	color: #FFF;
- 	text-align: left;
-   	padding-left: 20%;
-	padding-right: 20%;
-	margin-top: -20%;
- 	display: block;
- 	position: relative;
- 	width: 80%;
+ font-size: 1.9vw;
+ opacity: .7;
+ color: #FFF;
+ text-align: left;
+ padding-left: 20%;
+ padding-right: 20%;
+ margin-top: -20%;
+ display: block;
+ position: relative;
+ width: 80%;
 }
 .button-splash-top {
- 	font-size: 14px;
- 	opacity: .7;
- 	color: #FFF;
- 	display: block;
- 	position: relative;
- 	float: right;
- 	margin-right: 10%; 
- 	margin-bottom: 2%;
+ font-size: 14px;
+ opacity: .7;
+ color: #FFF;
+ display: block;
+ position: relative;
+ float: right;
+ margin-right: 10%;
+ margin-bottom: 2%;
 }
 
 /* Print */
 @media print {
 * {
-	min-height: inherit !important;
+ min-height: inherit !important;
 }
 #container, {
-	width:auto;
-	position: static;
-	float:none;
-	margin:0;
- 	background-color:transparent;
- 	border:none;
-	min-height:auto;
+ width:auto;
+ position: static;
+ float:none;
+ margin:0;
+ background-color:transparent;
+ border:none;
+ min-height:auto;
 }
 p {
- 	font-size: 13px;
+ font-size: 13px;
 }
 img {
- 	max-width: 500px;
+ max-width: 500px;
 }
 .navbar {
- 	display: none;
+ display: none;
 }
 .btn {
- 	display: none;
+ display: none;
 }
 .footer {
- 	display: none;
+ display: none;
 }
 .footer p {
- 	display: none;
+ display: none;
 }
  @page :left {
-	margin: 0.5cm;
+ margin: 0.5cm;
 }
  @page :right {
-	margin: 0.8cm;
+ margin: 0.8cm;
 }
