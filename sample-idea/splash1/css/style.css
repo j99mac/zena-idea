@@ -10,6 +10,7 @@ Mobile
 body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
+	font-size:100%;
 	height: 100%;
 	width: 100%;
  *zoom: 1;
@@ -93,7 +94,10 @@ body {
 	margin-left: 7%;
 	margin-top: 5%;
 }
-
+#bottom3rd {
+	top: 60%;
+	position: relative;
+}
 /* button */
 .btn {
 	display:inline-block;
@@ -172,6 +176,49 @@ ul, li, ol, dl, dd, dt {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+}
+/* =Headings */
+h1, h2, h3, h4, h5 {
+	font-weight: 700;
+	line-height: 1.2em;
+	word-wrap: break-word;
+}
+h1 {
+	font-size: 2.625em; /* = 42px */
+	font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+	opacity: .7;
+	margin-bottom: .5em;
+	margin-top: .5em;
+	padding-left: 10%;
+	width: 80%;
+	color: #FFF;
+	text-align: left;
+	display: block;
+}
+h2 {
+	font-size: 2.250em; /* = 36px */
+	font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+	opacity: .7;
+	margin-bottom: .75em;
+	margin-top: .75em;
+	padding-left: 10%;
+	width: 80%;
+	min-width:inherit;
+	color: #FFF;
+	text-align: left;
+	display: block;
+}
+h3 {
+	font-size: 1.875em; /* = 30px */
+	font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
+	opacity: .6;
+	margin:0;
+	padding:0;
+	padding-left: 10%;
+	width: 80%;
+	color: #FFF;
+	text-align: left;
+	display: block;
 }
 /* Typography */
 
