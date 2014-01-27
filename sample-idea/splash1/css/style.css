@@ -111,7 +111,7 @@ body {
 	color: #FFF;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 0;
+	margin-top: -30;
 	position: relative;
 	width: 90%;
 }
@@ -125,7 +125,7 @@ body {
 	position: relative;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 20%;
+	margin-top: 30%;
 	margin-bottom: 2px;
 	width:80%;
 }
