@@ -33,9 +33,16 @@ ul {
 }
 /* Sections
  * --------------------------------------- */
- #section {
+#section {
 }
 #section0 {
+	background-image: url(imgs/zbrushes1.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+	padding: 6% 0 0 0;
+	height: 100%;
+	display:block;
 }
 #section1 {
 }
