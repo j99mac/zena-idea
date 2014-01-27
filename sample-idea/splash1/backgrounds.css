@@ -1,3 +1,7 @@
+body
+{
+background-color: #d6d4d0;
+}
 
 .section {
 	text-align:center;
@@ -33,46 +37,35 @@ ul {
 }
 /* Sections
  * --------------------------------------- */
- #section {
+#section {
 }
 #section0 {
 }
 #section1 {
-}
-#section2 {
-}
-#sectio3 {
-}
-#section3 {
-	background-size: cover;
-}
-/*Creatin a ull height slide */
- .slides {
-	height: 100%;
-	display:block;
-}
-#slide1 {
-	background-image: url(imgs/bg2.jpg);
+	background-image: url(imgs/001a.jpg);
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size: cover;
-	padding: 6% 0 0 0;
-	height: 100%;
-	display:block;
-}
-#slide2 {
-	background-image: url(imgs/bg5.jpg);
-	padding: 6% 0 0 0;
-	height: 100%;
+	padding:0;
 }
 #section2 {
-	background-image: url(imgs/bg3.jpg);
-	padding: 6% 0 0 0;
+	background-image: url(imgs/002a.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
 }
 #section3 {
-	background-image: url(imgs/bg4.jpg);
+	background-image: url(imgs/.jpg);
 	padding: 6% 0 0 0;
 }
 #section3 h1 {
 	color:#000;
+}
+/*Creatin a ull height slide */
+.slides {
+
+}
+#slide1 {
+}
+#slide2 {
 }

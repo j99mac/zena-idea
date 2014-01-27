@@ -91,14 +91,29 @@ body {
 	text-align: left;
 	vertical-align: top;
 	display: block;
-	font-size: 60px;
-	opacity: .7;
+	font-size: 50px;
+	opacity: .6;
 	color: #FFF;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top:-20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
 	position: relative;
 	width: 90%;
+}
+.center-splash-top {
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+	font-size: 24px;
+	line-height: 1.25em;
+	opacity: .8;
+	color: #FFF;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-left: 15%;
+	margin-right: 5%;
+	margin-top: 40%;
+	margin-bottom: 2px;
+	width: 70%;
 }
 .p-splash-top {
 	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
@@ -112,7 +127,7 @@ body {
 	margin-right: 5%;
 	margin-top: 40%;
 	margin-bottom: 2px;
-	width:90%;
+	width:80%;
 }
 .button-splash-top {
 	font-size: 18px;
@@ -122,7 +137,7 @@ body {
 	position: relative;
 	float: right;
 	margin-right: 10%;
-	margin-bottom: 5%;
+	margin-bottom: 7%;
 }
 .caption-splash {
 	font-family: ff-meta-serif-web-pro, Georgia, Times, "Times New Roman", serif;
