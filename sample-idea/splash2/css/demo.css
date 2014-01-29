@@ -44,6 +44,11 @@ h1,h2,h3,h4,h5,h6 {
 	font-size:100%;
 	font-weight:normal;
 }
+p {
+	font-size:100%;
+	font-size: 18px;
+	font-weight:normal;
+}
 q:before,q:after {
 	content:'';
 }
@@ -54,7 +59,7 @@ body{
 	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	background: #000;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 20px;
 	color: #aa3e03;
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -119,7 +124,7 @@ a{
 	box-shadow: 1px 0px 2px #000;
 }
 .splash-top a{
-	padding: 0px 10px;
+	padding: 0px 1px;
 	letter-spacing: 1px;
 	color: #ddd;
 	display: block;
@@ -166,10 +171,10 @@ p.splash-demos a.current-demo:hover{
 	background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
 	background: linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
 }
-p.codrops-demos a:hover{
+p.splash-demos a:hover{
 	background: #6d0019;
 }
-p.codrops-demos a:active{
+p.splash-demos a:active{
 	opacity: .6;
 	background: #6d0019;
 	background: -moz-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
@@ -182,8 +187,8 @@ p.codrops-demos a:active{
 	-moz-box-shadow:0px 1px 1px rgba(255,255,255,0.9);
 	box-shadow: 0px 1px 1px rgba(255,255,255,0.9);
 }
-p.codrops-demos a.current-demo,
-p.codrops-demos a.current-demo:hover{
+p.splash-demos a.current-demo,
+p.splash-demos a.current-demo:hover{
 	color: #A5727D;
 	background: #6d0019;
 }
@@ -192,7 +197,7 @@ p.codrops-demos a.current-demo:hover{
 	.container > header{
 		text-align: center;
 	}
-	p.codrops-demos {
+	p.splash-demos {
 		position: relative;
 		top: auto;
 		left: auto;
