@@ -14,7 +14,7 @@
 			'resize' : true,
 			'slidesColor' : [],
 			'anchors':[],
-			'scrollingSpeed': 500,
+			'scrollingSpeed': 700,
 			'easing': 'easeInQuart',
 			'menu': false,
 			'navigation': false,
@@ -29,11 +29,12 @@
 			'loopHorizontal': true,
 			'autoScrolling': true,
 			'scrollOverflow': false,
-			'css3': true,
+			'css3': false,
 			'paddingTop': 0,
-			'paddingBottom': 2,
+			'paddingBottom': 0,
 			'fixedElements': null,
 			'normalScrollElements': null,
+			'keyboardScrolling': true,
 
 			//events
 			'afterLoad': null,
@@ -616,8 +617,8 @@
 		 * Sliding with arrow keys, both, vertical and horizontal
 		 */
 		$(document).keydown(function(e) {
-			//Moving the mian page with the keyboard arrows
-			if (!isMoving) {
+			//Moving the main page with the keyboard arrows if keyboard scrolling is enabled
+			if (options.keyboardScrolling && !isMoving) {
 				switch (e.which) {
 				//up
 				case 38:
