@@ -77,6 +77,8 @@ a {
 	position: relative;
 	text-align: center;
 	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
 }
 .clr {
 	clear: both;
@@ -244,4 +246,6 @@ p.splash-text {
 	width: 100%;
 	min-width: 320px;
 	max-width: 480px;
+	margin-left: auto;
+    margin-right: auto;
 }
