@@ -13,6 +13,8 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 html, body {
 	margin:0;
 	padding:0;
+    width: 100%;
+    height: 100%
 }
 table {
 	border-collapse:collapse;
@@ -38,9 +40,11 @@ caption, th {
 	text-align:left;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-size:100%;
-	font-weight:normal;
+    font-weight: 200;
+    letter-spacing: -1px;
+    line-height: 1.2
 }
+
 p {
 	font-size:100%;
 	font-size: 1.2em;
@@ -55,11 +59,13 @@ abbr, acronym {
 /* General button Style */
 body {
 	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	font-size: 1em;
+	font-size: 16px;
+    line-height: 1.5;
     font-weight: 200;
-    letter-spacing: -1px;
-    line-height: 1.2;
     background-color: #000;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
 }
 .ie7 body {
 	overflow:hidden;
