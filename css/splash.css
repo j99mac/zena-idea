@@ -85,7 +85,7 @@ a {
 	clear: both;
 }
 .container > header {
-	padding: 30px 30px 10px 20px;
+	padding: 30px 30px 10px 30px;
 	margin: 0px 20px 10px 20px;
 	position: relative;
 	display: block;
