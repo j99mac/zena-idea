@@ -13,9 +13,6 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 html, body {
 	margin:0;
 	padding:0;
-    min-height:480px;
-    overflow: hidden;
-    overflow-y: auto;
 }
 table {
 	border-collapse:collapse;
@@ -66,7 +63,9 @@ body {
     background-color: #000;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
+    overflow-y: scroll;
+	overflow-x: hidden;
 }
 .ie7 body {
 	overflow:hidden;
@@ -85,21 +84,12 @@ a {
 	clear: both;
 }
 .container > header {
+	padding: 30px 30px 10px 20px;
+	margin: 0px 20px 10px 20px;
 	position: relative;
 	display: block;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-	text-align: left;
-	margin-top: 0px;
-	margin-right: 1.2em;
-	margin-bottom: 10px;
-	margin-left: 1.2em;
-	padding-top: 40px;
-	padding-right: 30px;
-	padding-bottom: 10px;
-	padding-left: 40px;
-	min-width:300px;
-	max-width:380px;
-	height: 150px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: left;
 }
 .container > header h1 {
 	opacity: .6;
@@ -227,7 +217,7 @@ p.splash-button a.current-button, p.splash-button a.current-button:hover {
 	background: #6d0019;
 }
 /* Media Queries */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
  .container > header {
  text-align: center;
 }
