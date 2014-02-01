@@ -171,9 +171,9 @@ p.splash-button {
 }
 p.splash-text {
 	font-size: 1em;
-	line-height: 1.5em;
+	line-height: 1.4em;
 	width:100%;
-	min-width: 300px;
+	min-width: 310px;
 	max-width:400px;
 	color: #fff;
 	opacity: .6;
