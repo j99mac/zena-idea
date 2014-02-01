@@ -39,11 +39,10 @@ caption, th {
 	text-align:left;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 200;
-    letter-spacing: -1px;
-    line-height: 1.2
+	font-weight: 200;
+	letter-spacing: -1px;
+	line-height: 1.2
 }
-
 p {
 	font-size:100%;
 	font-size: 1.2em;
@@ -58,15 +57,16 @@ abbr, acronym {
 /* General button Style */
 body {
 	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	font-size: 16px;
-    line-height: 1.3;
-    font-weight: 200;
-    background-color: #000;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-y: scroll;
+	font-size: 1em;
+	line-height: 1.3;
+	font-weight: 200;
+	background-color: #000;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-y: scroll;
 	overflow-x: hidden;
+	width: 100%;
 }
 .ie7 body {
 	overflow:hidden;
@@ -85,12 +85,18 @@ a {
 	clear: both;
 }
 .container > header {
-	padding: 30px 30px 10px 30px;
-	margin: 0px 20px 10px 20px;
 	position: relative;
 	display: block;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-    text-align: left;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	text-align: left;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 30px;
+	padding-right: 60px;
+	padding-bottom: 10px;
+	padding-left: 60px;
 }
 .container > header h1 {
 	opacity: .6;
@@ -102,8 +108,6 @@ a {
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	padding: 0px;
-	opacity: .6;
-	width: 100%;
 }
 .container > header h1 span {
 	font-size: 1.5em
@@ -114,6 +118,11 @@ a {
 	font-style: italic;
 	color: #f8f8f8;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+.container > header h2 {
+	opacity: .6;
+	padding: 0px;
+	width:100%;
 }
 /* Header Style */
 .splash-top {
@@ -157,6 +166,8 @@ p.splash-button {
 	padding-right: 0px;
 	padding-bottom: 18px;
 	padding-left: 0px;
+	width:100%;
+	max-width:390px;
 }
 p.splash-text {
 	font-size: 1em;
@@ -167,11 +178,12 @@ p.splash-text {
 	opacity: .6;
 	padding-top: 5px;
 	padding-right: 0px;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 	padding-left: 0px;
-	text-align: left;
+	text-align: Left;
 	position: relative;
 	display: inline-block;
+
 }
 p.splash-button a, p.splash-button a.current-button, p.splash-button a.current-button:hover {
 	opacity: .6;
@@ -209,9 +221,9 @@ p.splash-button a:active {
 	background: -o-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
 	background: -ms-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
 	background: linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
-	-webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
-	-moz-box-shadow:0px 1px 1px rgba(255, 255, 255, 0.9);
-	box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
+	-webkit-box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.9);
+	-moz-box-shadow:0px 2px 2px rgba(255, 255, 255, 0.9);
+	box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.9);
 }
 p.splash-button a.current-button, p.splash-button a.current-button:hover {
 	color: #A5727D;
@@ -220,14 +232,13 @@ p.splash-button a.current-button, p.splash-button a.current-button:hover {
 /* Media Queries */
 @media screen and (max-width: 768px) {
  .container > header {
- text-align: center;
+	 text-align: center;
 }
  p.splash-button {
- position: relative;
- top: auto;
- left: auto;
+	 position: relative;
+	margin: 0 auto;
 }
 p.splash-text {
- text-align: center;
- position: relative;
+ 	text-align: center;
+ 	position: relative;
 }
