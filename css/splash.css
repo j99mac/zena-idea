@@ -173,10 +173,11 @@ p.splash-text {
 	font-size: 1em;
 	line-height: 1.5em;
 	width:100%;
-	max-width:390px;
+	min-width: 300px;
+	max-width:400px;
 	color: #fff;
 	opacity: .6;
-	padding-top: 5px;
+	padding-top: 2px;
 	padding-right: 0px;
 	padding-bottom: 5px;
 	padding-left: 0px;
