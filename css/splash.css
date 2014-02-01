@@ -85,7 +85,7 @@ a {
 	clear: both;
 }
 .container > header {
-	width:100%;
+	mim-width: 320px;
 	position: relative;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
