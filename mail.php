@@ -2,8 +2,8 @@
 if (isset($_POST['submit'])) {
 $msg = 'Name: ' .$_POST['name'] ."\n"
 	.'Email: ' .$_POST['email'] ."\n"
-	.'Comment: ' ."\n" .$_POST['comment'];
-	mail('example@example.com', Sample Comments', $msg);
+	.'Message: ' ."\n" .$_POST['message'];
+	mail('j99mac@eyahoo.com', Sample Message', $msg);
 	header('location: contact-us-thank-you.html');
 
 ) else (
