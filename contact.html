@@ -1,14 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<title>Contact US</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/form.css">
-</script>
+<meta name="author" content="">
+<title>Fixed Top Navbar Example for Bootstrap</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/form.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -30,36 +31,30 @@
     </div>
   </div>
 </div>
-<div class="center-block">
-  <div class="title">Contact Us</div>
-  <form action="contact-us-send.php" method="post" class="center-block">
-    <ul>
-      <li>
-        <div class="lable">
-          <label for="name">Name</label>
-        </div>
-        <input id="name" type="text" name="name" />
-      </li>
-      <li>
-        <div class="lable">
-          <label for="email">Email</label>
-        </div>
-        <input id="email" type="text" name="email" />
-      </li>
-      <li>
-        <div class="lable">
-          <label for="message">Message</label>
-        </div>
-        <textarea name="message" cols="50" rows="15" id="message"></textarea>
-      </li>
-      <li>
-        <div class="button">
-          <input name="submit" type="submit" class="submit" id="submit"
-value="Send" />
-        </div>
-      </li>
-    </ul>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-8">
+    <div id="stylized" class="form">
+  <form action="mailto:name@example.com?subject=Website Feedback" method="post" enctype="text/plain">
+    <h1>Contact us</h1>
+    <label>Name <span class="small"></span> </label>
+    <input name="name" type="text" class="form" id="name" />
+    <label>Email <span class="small"></span> </label>
+    <input type="text" name="email" id="email" />
+    <label>Message <span class="small"></span> </label>
+    <textarea name="message" rows="7"></textarea>
+    <button type="submit">Submit</button>
+    <div class="spacer"></div>
   </form>
+</div>
+  </div>
+  <div class="col-md-4">Text</div>
+</div>
 </div>
 <br>
 <footer>
